@@ -53,17 +53,20 @@ untick it when you have the file:
 
 Base URL: <https://voxspica.4crytobot.xyz/downloads>
 
-- [ ] [`VoxSpica-0.1.4-en-setup.exe`](https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.4-en-setup.exe) — English, 101.1 MB
-- [ ] [`VoxSpica-0.1.4-ru-setup.exe`](https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.4-ru-setup.exe) — Russian, 106.1 MB
-- [ ] [`VoxSpica-0.1.4-de-setup.exe`](https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.4-de-setup.exe) — German, 106.1 MB
-- [ ] [`VoxSpica-0.1.4-fr-setup.exe`](https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.4-fr-setup.exe) — French, 102.4 MB
-- [ ] [`VoxSpica-0.1.4-es-setup.exe`](https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.4-es-setup.exe) — Spanish, 99.6 MB
-- [ ] [`VoxSpica-0.1.4-it-setup.exe`](https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.4-it-setup.exe) — Italian, 109.5 MB
-- [ ] [`VoxSpica-0.1.4-zh-setup.exe`](https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.4-zh-setup.exe) — Chinese, 103.8 MB
+- [ ] 🇬🇧 [`VoxSpica-0.1.4-en-setup.exe`](https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.4-en-setup.exe) — English, 101.1 MB
+- [ ] 🇷🇺 [`VoxSpica-0.1.4-ru-setup.exe`](https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.4-ru-setup.exe) — Russian, 106.1 MB
+- [ ] 🇩🇪 [`VoxSpica-0.1.4-de-setup.exe`](https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.4-de-setup.exe) — German, 106.1 MB
+- [ ] 🇫🇷 [`VoxSpica-0.1.4-fr-setup.exe`](https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.4-fr-setup.exe) — French, 102.4 MB
+- [ ] 🇪🇸 [`VoxSpica-0.1.4-es-setup.exe`](https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.4-es-setup.exe) — Spanish, 99.6 MB
+- [ ] 🇮🇹 [`VoxSpica-0.1.4-it-setup.exe`](https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.4-it-setup.exe) — Italian, 109.5 MB
+- [ ] 🇨🇳 [`VoxSpica-0.1.4-zh-setup.exe`](https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.4-zh-setup.exe) — Chinese, 103.8 MB
 
 The list names one version; it is replaced when a new one is published. The
 portable archive above is not among these — it is in the release, and it is the
 one to take if you want a different interface language than the ones listed.
+The flags are the languages, not the countries: English is 🇬🇧 rather than 🇺🇸
+because the interface is `en` and not `en-US` — no installer ships a
+US-specific interface.
 
 ## About this repository
 
