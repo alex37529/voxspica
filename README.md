@@ -53,13 +53,13 @@ untick it when you have the file:
 
 Base URL: <https://voxspica.4crytobot.xyz/downloads>
 
-- [ ] 🇬🇧 [`VoxSpica-0.1.4-en-setup.exe`](https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.4-en-setup.exe) — English, 101.1 MB
-- [ ] 🇷🇺 [`VoxSpica-0.1.4-ru-setup.exe`](https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.4-ru-setup.exe) — Russian, 106.1 MB
-- [ ] 🇩🇪 [`VoxSpica-0.1.4-de-setup.exe`](https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.4-de-setup.exe) — German, 106.1 MB
-- [ ] 🇫🇷 [`VoxSpica-0.1.4-fr-setup.exe`](https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.4-fr-setup.exe) — French, 102.4 MB
-- [ ] 🇪🇸 [`VoxSpica-0.1.4-es-setup.exe`](https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.4-es-setup.exe) — Spanish, 99.6 MB
-- [ ] 🇮🇹 [`VoxSpica-0.1.4-it-setup.exe`](https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.4-it-setup.exe) — Italian, 109.5 MB
-- [ ] 🇨🇳 [`VoxSpica-0.1.4-zh-setup.exe`](https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.4-zh-setup.exe) — Chinese, 103.8 MB
+- <img src="https://flagcdn.com/16x12/gb.png" width="16" alt="GB"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.4-en-setup.exe"><code>VoxSpica-0.1.4-en-setup.exe</code></a> — English, 101.1 MB
+- <img src="https://flagcdn.com/16x12/ru.png" width="16" alt="RU"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.4-ru-setup.exe"><code>VoxSpica-0.1.4-ru-setup.exe</code></a> — Russian, 106.1 MB
+- <img src="https://flagcdn.com/16x12/de.png" width="16" alt="DE"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.4-de-setup.exe"><code>VoxSpica-0.1.4-de-setup.exe</code></a> — German, 106.1 MB
+- <img src="https://flagcdn.com/16x12/fr.png" width="16" alt="FR"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.4-fr-setup.exe"><code>VoxSpica-0.1.4-fr-setup.exe</code></a> — French, 102.4 MB
+- <img src="https://flagcdn.com/16x12/es.png" width="16" alt="ES"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.4-es-setup.exe"><code>VoxSpica-0.1.4-es-setup.exe</code></a> — Spanish, 99.6 MB
+- <img src="https://flagcdn.com/16x12/it.png" width="16" alt="IT"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.4-it-setup.exe"><code>VoxSpica-0.1.4-it-setup.exe</code></a> — Italian, 109.5 MB
+- <img src="https://flagcdn.com/16x12/cn.png" width="16" alt="CN"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.4-zh-setup.exe"><code>VoxSpica-0.1.4-zh-setup.exe</code></a> — Chinese, 103.8 MB
 
 The list names one version; it is replaced when a new one is published. The
 portable archive above is not among these — it is in the release, and it is the
