@@ -31,7 +31,7 @@ cloud. 30+ recognition languages, 9 interface languages.
 ## Download
 
 Go to the [Releases](https://github.com/alex37529/voxspica/releases) page and
-download `VoxSpica-<version>-win64.zip`. The archive holds a single executable —
+download portable version `VoxSpica-<version>-win64.zip`. The archive holds a single executable —
 there is nothing else to install, and Python is not required.
 
 On first launch the app asks for the interface language and offers to download a
