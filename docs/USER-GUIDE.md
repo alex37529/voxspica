@@ -1,5 +1,9 @@
 # User guide
 
+<p align="center">
+  <sub>[Deutsch](USER-GUIDE.de.md) · [Español](USER-GUIDE.es.md) · [Français](USER-GUIDE.fr.md) · [Italiano](USER-GUIDE.it.md) · [Русский](USER-GUIDE.ru.md)</sub>
+</p>
+
 VoxSpica recognises speech on Windows without sending audio anywhere. This guide
 walks through the screens in the order you meet them.
 

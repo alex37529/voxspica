@@ -1,5 +1,9 @@
 # Руководство пользователя
 
+<p align="center">
+  <sub>[English](USER-GUIDE.md) · [Deutsch](USER-GUIDE.de.md) · [Español](USER-GUIDE.es.md) · [Français](USER-GUIDE.fr.md) · [Italiano](USER-GUIDE.it.md)</sub>
+</p>
+
 VoxSpica распознаёт речь на Windows, не отправляя аудио куда-либо. Это
 руководство проходит по экранам в том порядке, в котором вы их встретите.
 
