@@ -1,55 +1,118 @@
-# VoxSpica — Speech to Text, offline
-<br>
 <p align="center">
-<img alt="VoxSpica" src="images/voxspica_en.png" width="80%">
-</p>
-<br>
-**Free speech recognition for Windows that never sends your data to the
-internet.**
-
-Microphone dictation and audio file transcription powered by
-[VOSK](https://alphacephei.com/vosk/) (Kaldi ASR) — local, on CPU, no GPU, no
-cloud. 30+ recognition languages, 9 interface languages.
-
-<p align="center">
-  <a href="LICENSE"><img alt="License: Apache-2.0" src="https://img.shields.io/badge/license-Apache--2.0-blue.svg"></a>
-  <img alt="Platform" src="https://img.shields.io/badge/platform-Windows%2010%20%2F%2011%20x64-0078D4">
-  <img alt="ASR engine" src="https://img.shields.io/badge/ASR-VOSK-4B8B3F">
-  <img alt="Privacy" src="https://img.shields.io/badge/privacy-100%25%20offline-success">
-  <img alt="Interface languages" src="https://img.shields.io/badge/UI-9%20languages-6E7781">
-  <img alt="Recognition languages" src="https://img.shields.io/badge/ASR-33%20languages-6E7781">
+  <img alt="VoxSpica" src="images/voxspica_en.png" width="620">
 </p>
 
-## Why VoxSpica
+<h1 align="center">VoxSpica</h1>
 
-- **Free** — no subscription, no payment, no ads.
-- **Private** — recordings and texts stay on your computer.
-- **Offline** — once a model is downloaded, no internet is needed.
-- **Live transcription** — the text appears while you speak, with pause and stop.
-- **History** — every recognition is stored in SQLite and is searchable.
+<p align="center">
+  <b>Free speech-to-text for Windows that never sends your voice anywhere.</b><br>
+  <sub>Your voice stays on your computer. No account, no subscription, no cloud.</sub>
+</p>
 
-## Download
+<p align="center">
+  <a href="https://github.com/alex37529/voxspica/releases"><img alt="Download" src="https://img.shields.io/badge/download-releases-2C7BE0?style=for-the-badge"></a>
+  <a href="docs/USER-GUIDE.md"><img alt="Guide" src="https://img.shields.io/badge/docs-user%20guide-0B1620?style=for-the-badge"></a>
+  <a href="https://voxspica.4crytobot.xyz"><img alt="Website" src="https://img.shields.io/badge/website-voxspica.4crytobot.xyz-0B1620?style=for-the-badge"></a>
+</p>
 
-Go to the [Releases](https://github.com/alex37529/voxspica/releases) page and
-download portable version `VoxSpica-<version>-win64.zip`. The archive holds a single executable —
-there is nothing else to install, and Python is not required.
+<p align="center">
+  <img alt="Windows" src="https://img.shields.io/badge/Windows-10%20%2F%2011%20x64-0B1620?style=flat-square">
+  <img alt="License" src="https://img.shields.io/badge/license-Apache--2.0-2C7BE0?style=flat-square">
+  <img alt="Interface languages" src="https://img.shields.io/badge/interface-9%20languages-0B1620?style=flat-square">
+  <img alt="Recognition languages" src="https://img.shields.io/badge/recognition-33%20languages-0B1620?style=flat-square">
+  <img alt="Engine" src="https://img.shields.io/badge/ASR-VOSK%20(Kaldi)-0B1620?style=flat-square">
+</p>
 
-On first launch the app asks for the interface language and offers to download a
-recognition model for the language you picked. **Models are not bundled** (50 MB
-to 1.8 GB each): they are downloaded once and stored next to the app.
+<p align="center">
+  <sub>English · <a href="README.ru.md">Русский</a> · <a href="README.zh.md">简体中文</a></sub>
+</p>
 
-Windows may show a SmartScreen warning — the builds are not code-signed. Choose
-"More info" → "Run anyway".
+---
 
-The SHA256 of every archive is in `SHA256SUMS.txt` next to it in the same
-release.
+## What it is
 
-## Installers
+VoxSpica turns speech into text on Windows and nothing leaves the machine. The
+recognition engine is [VOSK](https://alphacephei.com/vosk/) — a desktop build of
+Kaldi, open source — running on your CPU. No GPU, no network, no telemetry.
 
-Per-language installers. Each one is in its own language and each carries a
-ready small recognition model for that language, so the first start works
-offline with nothing left to download. Pick the line for your language and
-untick it when you have the file:
+It works two ways:
+
+- **Live dictation** from a microphone, with the text appearing as you speak.
+- **File transcription** for anything the system can play — mp3, m4a, wav, and
+  others if you have [ffmpeg](https://ffmpeg.org/) on the path.
+
+Every recognition is stored in a local database you can search later.
+
+## Why offline
+
+The dictation services you may have used send your audio to someone else's
+server. That is a reasonable design for them and a poor one for a tool whose job
+is to write down what you just said out loud — which is often a private
+document, a client's name, something you have not decided to publish yet.
+
+Here the answer is structural rather than promised: the model is on your disk,
+the database is on your disk, and there is no code path that opens a socket.
+
+<p align="center">
+  <img alt="Interface language selection" src="images/voxspica_interface_language.png" width="820">
+  <br>
+  <sub>The interface speaks nine languages, each named in its own language.</sub>
+</p>
+
+## Screens
+
+<table>
+<tr>
+<td width="50%" align="center" valign="top">
+  <img alt="Managing recognition models" src="images/voxspica_models.png"><br>
+  <sub><b>Models</b> — every language, its sizes, and what each one costs to download.</sub>
+</td>
+<td width="50%" align="center" valign="top">
+  <img alt="Choosing a microphone" src="images/voxspica_device.png"><br>
+  <sub><b>Device</b> — pick the microphone, with its real sample rate.</sub>
+</td>
+</tr>
+<tr>
+<td width="50%" align="center" valign="top">
+  <img alt="Recognition history" src="images/voxspica_history.png"><br>
+  <sub><b>History</b> — every recognition, searchable, deletable, copyable.</sub>
+</td>
+<td width="50%" align="center" valign="top">
+  <img alt="Interface language selection" src="images/voxspica_interface_language.png"><br>
+  <sub><b>Interface</b> — switch the interface language at any time.</sub>
+</td>
+</tr>
+</table>
+
+## Get it
+
+<table>
+<tr>
+<th align="left" width="50%">Per-language installer</th>
+<th align="left" width="50%">Portable archive</th>
+</tr>
+<tr>
+<td valign="top">
+
+Seven installers, one per interface language. Each brings a ready recognition
+model for that language, so the first launch works with no internet at all.
+Pick your language and untick the box once you have the file — the links are
+straight below.
+
+</td>
+<td valign="top">
+
+A single <code>VoxSpica.exe</code> in a zip. Nothing is installed, nothing is
+written to the system, and the folder can live on a USB stick. You pick the
+interface language and download a model on first run.
+
+Portable builds are in [Releases](https://github.com/alex37529/voxspica/releases).
+
+</td>
+</tr>
+</table>
+
+### The seven installers
 
 Base URL: <https://voxspica.4crytobot.xyz/downloads>
 
@@ -61,19 +124,75 @@ Base URL: <https://voxspica.4crytobot.xyz/downloads>
 - <img src="https://flagcdn.com/16x12/it.png" width="16" alt="IT"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.4-it-setup.exe"><code>VoxSpica-0.1.4-it-setup.exe</code></a> — Italian, 109.5 MB
 - <img src="https://flagcdn.com/16x12/cn.png" width="16" alt="CN"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.4-zh-setup.exe"><code>VoxSpica-0.1.4-zh-setup.exe</code></a> — Chinese, 103.8 MB
 
-The list names one version; it is replaced when a new one is published. The
-portable archive above is not among these — it is in the release, and it is the
-one to take if you want a different interface language than the ones listed.
-The flags are the languages, not the countries: English is 🇬🇧 rather than 🇺🇸
-because the interface is `en` and not `en-US` — no installer ships a
-US-specific interface.
+The list names one version and is replaced when a new one is published. The
+portable archive is deliberately not in it — that one is in the release, and it
+is the one to take if you want an interface language that is not on this list.
+The flags mark the language, not the country: English is the British flag rather
+than the American one, because the interface is `en` and not `en-US`, and no
+installer ships a US-specific interface. They are served by
+[flagcdn.com](https://flagcdn.com); if that host is unreachable the links below
+still work, only the pictures disappear.
+
+> **Windows will warn you.** The builds are not code-signed, so SmartScreen
+> shows an unknown publisher. Click *More info* → *Run anyway*. See
+> [known limitations](#what-this-does-not-do) — signing is on the list.
+
+## First run
+
+1. Start the program. On the first launch it asks for the interface language.
+2. Choose the **recognition language** — the language you are going to *speak*.
+   This is separate from the interface language and independent of it.
+3. Download a model for it. The **small** model is around 50 MB and is enough
+   for drafts; the **large** one is more accurate, needs about 8 GB of RAM and
+   takes 60–90 seconds to load the first time.
+4. Pick a microphone, press record, and talk.
+
+The [user guide](docs/USER-GUIDE.md) walks through each screen, including what
+to do when a model is missing and how the models differ.
+
+## Languages
+
+The **interface** is available in nine languages: Belarusian, German, English,
+Spanish, French, Italian, Russian, Ukrainian, Chinese.
+
+**Recognition** works in 33 languages. They are listed with their model names in
+[docs/LANGUAGES.md](docs/LANGUAGES.md). Recognition and interface are
+independent — you can dictate Ukrainian into an English interface.
+
+## Command line
+
+The program is not only a window. Everything it does is available from a
+console, which is what you want in a script or a hotkey launcher:
+
+```powershell
+VoxSpica.exe mic --lang ru --size small     # dictate, print to stdout
+VoxSpica.exe file meeting.mp3 --lang en-us  # transcribe a file
+VoxSpica.exe devices                        # list microphones
+VoxSpica.exe download --lang ru --size small
+VoxSpica.exe list                           # languages and their models
+VoxSpica.exe history --search "meeting"     # what was recognised before
+```
+
+## What this does not do
+
+Written plainly, because this is the part that usually gets discovered later.
+
+- **Not code-signed.** Windows shows a SmartScreen warning on every install.
+- **No commas.** VOSK outputs words without punctuation. VoxSpica restores
+  capitalisation and puts a full stop at the end of a sentence, but it cannot
+  place commas without parsing syntax — any simple rule produces
+  "How, are you" instead of "How are you".
+- **Windows x64 only.** macOS and Linux are not built.
+- **Models are separate.** Nothing but the portable archive ships a model, and
+  the models are 50 MB to 1.8 GB. The per-language installers are the exception:
+  they carry one.
 
 ## About this repository
 
-This repository holds **the releases only**. The source code of VoxSpica is not
-public and is not mirrored here, so nothing in this repository contains it: the
-`vX.Y.Z` tags point at the small public commit that introduces this file, not at
-any application code. The files attached to each release are built binaries.
+This repository holds **the releases only**. The source code is not public and
+is not mirrored here — nothing in this repository contains it. The `vX.Y.Z` tags
+point at the small public commit that introduces this file, not at any
+application code. The files attached to each release are built binaries.
 
 Website: <https://voxspica.4crytobot.xyz>
 

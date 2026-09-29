@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VoxSpica — offline speech-to-text for Windows</title>
+<meta name="description" content="Free speech recognition for Windows that never sends your voice anywhere. 9 interface languages, 33 recognition languages, VOSK running locally on your CPU.">
+<style>
+  /* Colours measured from images/voxspica_en.png, not chosen by eye:
+     the background is the banner's own #020B11, and the accent is the
+     banner's blue at hue 216deg. A green accent was suggested for a
+     "privacy tool" and rejected — it is not this product's colour. */
+  :root {
+    --bg:        #020B11;
+    --surface:   #071824;
+    --surface-2: #0B2130;
+    --accent:    #2C7BE0;
+    --accent-dim:#1A4F94;
+    --fg:        #F2F7FB;
+    --muted:     #93A7B8;
+    --line:      rgba(255, 255, 255, 0.09);
+    --radius:    14px;
+    --measure:   68ch;
+  }
+
+  * { box-sizing: border-box; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font: 16px/1.65 "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .wrap { width: min(1080px, 100% - 3rem); margin-inline: auto; }
+
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  code {
+    font-family: "JetBrains Mono", ui-monospace, "Cascadia Code", Consolas, monospace;
+    font-size: 0.9em;
+  }
+
+  /* --- header ---------------------------------------------------------- */
+
+  header {
+    border-bottom: 1px solid var(--line);
+    position: sticky;
+    top: 0;
+    background: rgba(2, 11, 17, 0.86);
+    backdrop-filter: blur(10px);
+  }
+  header .wrap {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    min-height: 60px;
+  }
+  .brand { font-weight: 650; letter-spacing: -0.01em; color: var(--fg); }
+  nav { margin-left: auto; display: flex; gap: 1.25rem; font-size: 0.94rem; }
+  nav a { color: var(--muted); }
+  nav a:hover, nav a:focus-visible { color: var(--fg); text-decoration: none; }
+
+  /* --- hero ------------------------------------------------------------ */
+
+  .hero { padding: 5.5rem 0 4rem; }
+  .hero h1 {
+    font-size: clamp(2.4rem, 6vw, 3.6rem);
+    line-height: 1.1;
+    letter-spacing: -0.03em;
+    margin: 0 0 1.25rem;
+  }
+  .hero p {
+    max-width: var(--measure);
+    color: var(--muted);
+    font-size: 1.15rem;
+    margin: 0 0 2rem;
+  }
+  .hero p strong { color: var(--fg); font-weight: 550; }
+
+  .cta { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    min-height: 44px;
+    padding: 0.7rem 1.35rem;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 0.97rem;
+    border: 1px solid transparent;
+    transition: background-color 180ms ease, border-color 180ms ease;
+  }
+  .btn-primary { background: var(--accent); color: #fff; }
+  .btn-primary:hover { background: #3a86e6; text-decoration: none; }
+  .btn-ghost { border-color: var(--line); color: var(--fg); }
+  .btn-ghost:hover { border-color: var(--accent); text-decoration: none; }
+
+  .facts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 2.5rem;
+    margin: 2.75rem 0 0;
+    padding: 0;
+    list-style: none;
+    color: var(--muted);
+    font-size: 0.93rem;
+  }
+  .facts b { display: block; color: var(--fg); font-size: 1.5rem; font-weight: 620; letter-spacing: -0.02em; }
+
+  /* --- sections -------------------------------------------------------- */
+
+  section { padding: 3.5rem 0; border-top: 1px solid var(--line); }
+  h2 {
+    font-size: 1.6rem;
+    letter-spacing: -0.02em;
+    margin: 0 0 0.75rem;
+  }
+  .lede { max-width: var(--measure); color: var(--muted); margin: 0 0 2rem; }
+
+  /* --- screens --------------------------------------------------------- */
+
+  .shots {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 1.25rem;
+  }
+  figure {
+    margin: 0;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    overflow: hidden;
+  }
+  figure img { display: block; width: 100%; height: auto; }
+  figcaption { padding: 0.9rem 1.1rem; color: var(--muted); font-size: 0.92rem; }
+  figcaption b { color: var(--fg); }
+
+  /* --- downloads ------------------------------------------------------- */
+
+  ul.installers { list-style: none; margin: 0; padding: 0; }
+  ul.installers li {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.7rem 0;
+    border-bottom: 1px solid var(--line);
+  }
+  ul.installers li:last-child { border-bottom: 0; }
+  ul.installers img { width: 20px; height: 15px; flex: none; border-radius: 1px; }
+  ul.installers a { flex: 1; min-width: 0; }
+  ul.installers code { color: var(--fg); }
+  ul.installers .size { color: var(--muted); font-variant-numeric: tabular-nums; }
+
+  /* --- limits ---------------------------------------------------------- */
+
+  .limits { display: grid; gap: 0.9rem; padding: 0; margin: 0; list-style: none; }
+  .limits li {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-left: 3px solid var(--accent-dim);
+    border-radius: 10px;
+    padding: 1rem 1.15rem;
+  }
+  .limits b { display: block; margin-bottom: 0.15rem; }
+  .limits span { color: var(--muted); font-size: 0.94rem; }
+
+  footer {
+    border-top: 1px solid var(--line);
+    padding: 2.5rem 0 3.5rem;
+    color: var(--muted);
+    font-size: 0.9rem;
+  }
+  footer a { color: var(--muted); }
+
+  :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
+
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    * { transition: none !important; }
+  }
+
+  @media (max-width: 560px) {
+    .wrap { width: min(1080px, 100% - 2rem); }
+    .hero { padding: 3.5rem 0 3rem; }
+    ul.installers li { flex-wrap: wrap; }
+    ul.installers .size { flex-basis: 100%; padding-left: 2.35rem; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <span class="brand">VoxSpica</span>
+    <nav>
+      <a href="../README.md">Readme</a>
+      <a href="USER-GUIDE.md">Guide</a>
+      <a href="LANGUAGES.md">Languages</a>
+      <a href="https://github.com/alex37529/voxspica/releases">Releases</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+    <div class="hero">
+      <h1>Your voice stays on your computer.</h1>
+      <p>
+        VoxSpica turns speech into text on Windows and sends nothing anywhere.
+        Recognition runs on your CPU through <strong>VOSK</strong>, a desktop
+        build of Kaldi. No account, no subscription, no cloud — the model is on
+        your disk, the database is on your disk, and there is no code path that
+        opens a socket.
+      </p>
+      <div class="cta">
+        <a class="btn btn-primary" href="https://github.com/alex37529/voxspica/releases">Download</a>
+        <a class="btn btn-ghost" href="USER-GUIDE.md">User guide</a>
+        <a class="btn btn-ghost" href="https://voxspica.4crytobot.xyz">Website</a>
+      </div>
+      <ul class="facts">
+        <li><b>33</b> recognition languages</li>
+        <li><b>9</b> interface languages</li>
+        <li><b>0</b> bytes uploaded</li>
+        <li><b>0</b> accounts</li>
+      </ul>
+    </div>
+  </div>
+
+  <section>
+    <div class="wrap">
+      <h2>Two ways it works</h2>
+      <p class="lede">
+        Live dictation from a microphone, with the text appearing as you speak.
+        And transcription of anything the system can play — wav natively, mp3,
+        m4a and the rest with ffmpeg on the path. Every recognition is kept in a
+        local database you can search.
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2>The screens</h2>
+      <p class="lede">Nothing here needs a manual. Four of them, in English.</p>
+      <div class="shots">
+        <figure>
+          <img src="../images/voxspica_models.png" alt="Managing recognition models in the settings" loading="lazy">
+          <figcaption><b>Models</b> — every language, its sizes, and what each one costs to download.</figcaption>
+        </figure>
+        <figure>
+          <img src="../images/voxspica_device.png" alt="Choosing a microphone" loading="lazy">
+          <figcaption><b>Device</b> — pick the microphone, with its real sample rate.</figcaption>
+        </figure>
+        <figure>
+          <img src="../images/voxspica_history.png" alt="Recognition history with search" loading="lazy">
+          <figcaption><b>History</b> — every recognition, searchable, deletable, copyable.</figcaption>
+        </figure>
+        <figure>
+          <img src="../images/voxspica_interface_language.png" alt="Interface language selection" loading="lazy">
+          <figcaption><b>Interface</b> — nine languages, each named in its own language.</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2>Per-language installers</h2>
+      <p class="lede">
+        Seven installers, one per interface language. Each carries a ready
+        recognition model, so the first launch works with no internet at all.
+        Pick yours, untick the box when you have the file.
+      </p>
+      <ul class="installers">
+        <li><img src="https://flagcdn.com/20x15/gb.png" alt="GB" width="20" height="15"><a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.4-en-setup.exe"><code>VoxSpica-0.1.4-en-setup.exe</code></a><span class="size">101.1 MB</span></li>
+        <li><img src="https://flagcdn.com/20x15/ru.png" alt="RU" width="20" height="15"><a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.4-ru-setup.exe"><code>VoxSpica-0.1.4-ru-setup.exe</code></a><span class="size">106.1 MB</span></li>
+        <li><img src="https://flagcdn.com/20x15/de.png" alt="DE" width="20" height="15"><a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.4-de-setup.exe"><code>VoxSpica-0.1.4-de-setup.exe</code></a><span class="size">106.1 MB</span></li>
+        <li><img src="https://flagcdn.com/20x15/fr.png" alt="FR" width="20" height="15"><a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.4-fr-setup.exe"><code>VoxSpica-0.1.4-fr-setup.exe</code></a><span class="size">102.4 MB</span></li>
+        <li><img src="https://flagcdn.com/20x15/es.png" alt="ES" width="20" height="15"><a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.4-es-setup.exe"><code>VoxSpica-0.1.4-es-setup.exe</code></a><span class="size">99.6 MB</span></li>
+        <li><img src="https://flagcdn.com/20x15/it.png" alt="IT" width="20" height="15"><a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.4-it-setup.exe"><code>VoxSpica-0.1.4-it-setup.exe</code></a><span class="size">109.5 MB</span></li>
+        <li><img src="https://flagcdn.com/20x15/cn.png" alt="CN" width="20" height="15"><a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.4-zh-setup.exe"><code>VoxSpica-0.1.4-zh-setup.exe</code></a><span class="size">103.8 MB</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2>What it does not do</h2>
+      <p class="lede">Written plainly, because this is the part usually discovered later.</p>
+      <ul class="limits">
+        <li><b>Not code-signed</b><span>Windows shows a SmartScreen warning on every install. More info → Run anyway.</span></li>
+        <li><b>No commas</b><span>VOSK outputs words without punctuation. Capitalisation and sentence stops are restored; commas are not, because placing them without a syntax model produces worse results than none.</span></li>
+        <li><b>Windows x64 only</b><span>No macOS and no Linux build.</span></li>
+        <li><b>Models are separate</b><span>50 MB to 1.8 GB, downloaded once. The per-language installers are the exception: each carries one.</span></li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>
+      Apache-2.0. Recognition by <a href="https://alphacephei.com/vosk/">VOSK</a> (Apache-2.0);
+      models by Alpha Cephei. This repository holds the releases only — the source code is not public.
+      <br>
+      <a href="../README.md">English</a> ·
+      <a href="../README.ru.md">Русский</a> ·
+      <a href="../README.zh.md">简体中文</a>
+    </p>
+  </div>
+</footer>
+
+</body>
+</html>
