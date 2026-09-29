@@ -1,7 +1,7 @@
 # VoxSpica — Speech to Text, offline
 <br>
 <p align="center">
-<img alt="VoxSpica" src="images/voxspica_en.png" width="60%">
+<img alt="VoxSpica" src="images/voxspica_en.png" width="80%">
 </p>
 <br>
 **Free speech recognition for Windows that never sends your data to the
