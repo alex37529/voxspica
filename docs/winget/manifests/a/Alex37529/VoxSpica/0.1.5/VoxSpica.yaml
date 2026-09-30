@@ -1,5 +1,5 @@
 # Created with wingetcreate.exe v1.12.13.0
-# yaml-language-server: $schema=https://aka.ms/winget-manifest.singleton.1.30.0.schema.json
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.singleton.1.12.0.schema.json
 #
 # Manifest for winget-pkgs — VoxSpica 0.1.5.
 #
@@ -77,4 +77,4 @@ Tags:
   - Offline
   - Privacy
 ManifestType: singleton
-ManifestVersion: 1.30.0
+ManifestVersion: 1.12.0
