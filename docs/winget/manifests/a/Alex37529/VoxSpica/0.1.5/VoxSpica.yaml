@@ -1,4 +1,7 @@
-# Manifest for winget-pkgs — VoxSpica 0.1.5
+# Created with wingetcreate.exe v1.12.13.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.singleton.1.30.0.schema.json
+#
+# Manifest for winget-pkgs — VoxSpica 0.1.5.
 #
 # The path under manifests/ is the path in the pull request: winget-pkgs splits
 # the tree by the first letter of the publisher, then publisher, then package,
@@ -11,6 +14,9 @@
 #
 # SHA-256 was taken from the SHA256SUMS.txt of the v0.1.5 release and confirmed
 # against the digest GitHub computes for the asset itself. Both agree.
+#
+# No `Scope`: it is not supported for InstallerType portable, and a portable
+# package is user-scoped anyway.
 PackageIdentifier: Alex37529.VoxSpica
 PackageVersion: 0.1.5
 PackageLocale: en-US
@@ -63,7 +69,6 @@ Installers:
 ReleaseDate: '2026-09-30'
 Platform:
   - Windows.Desktop
-Scope: user
 Tags:
   - Speech
   - Microphone
