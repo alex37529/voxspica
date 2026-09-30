@@ -98,6 +98,8 @@ le turc et l'ouzbek. L'onglet le dit au lieu de proposer un téléchargement qui
 Les modèles se chargent en arrière-plan au démarrage, l'enregistrement commence
 donc dès que le modèle est chaud.
 
+![Gestion des modèles de reconnaissance](../images/voxspica_models.png)
+
 ## Petit ou grand ?
 
 | | petit | grand |
@@ -125,6 +127,8 @@ défaut.
 Un micro annoncé à 2 kHz n'est pas une vraie entrée : c'est une boucle ou un
 point virtuel. Choisissez celui dont la fréquence vous parle, généralement
 16 kHz ou 44,1/48 kHz.
+
+![Choix du micro](../images/voxspica_device.png)
 
 ## Dicter
 
@@ -162,6 +166,8 @@ Une ligne sélectionnée affiche le texte entier en dessous. De là : **Copy tex
 
 L'historique est un simple fichier SQLite dans le profil utilisateur. Rien n'est
 envoyé, et supprimer le fichier supprime l'historique.
+
+![Historique des reconnaissances](../images/voxspica_history.png)
 
 ## Changer la langue de l'interface
 

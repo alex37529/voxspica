@@ -95,6 +95,8 @@ rather than offering a download that would fail.
 Models are loaded in the background on start, so recording begins without
 waiting once the model is warm.
 
+![Managing recognition models](../images/voxspica_models.png)
+
 ## Small or large?
 
 | | small | large |
@@ -120,6 +122,8 @@ star are the ones the system considers default devices.
 A microphone listed at 2 kHz is not a real capture device — it is a loopback
 or a virtual endpoint. Pick the one with a rate you recognise, usually 16 kHz or
 44.1/48 kHz.
+
+![Choosing a microphone](../images/voxspica_device.png)
 
 ## Dictating
 
@@ -156,6 +160,8 @@ Selecting a row shows the full text below. From there you can **Copy text**,
 
 The history is a plain SQLite file in your user profile. Nothing is uploaded,
 and deleting it deletes the record.
+
+![Recognition history](../images/voxspica_history.png)
 
 ## Changing the interface language
 

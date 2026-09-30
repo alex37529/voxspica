@@ -98,6 +98,8 @@ nicht funktionieren würde.
 Modelle werden beim Start im Hintergrund geladen, deshalb beginnt die Aufnahme
 nach dem Aufwärmen sofort.
 
+![Verwaltung der Erkennungsmodelle](../images/voxspica_models.png)
+
 ## Klein oder groß?
 
 | | klein | groß |
@@ -124,6 +126,8 @@ sind die Geräte markiert, die das System als Vorgabe behandelt.
 Ein Mikrofon mit 2 kHz ist keine echte Aufnahme — das ist eine Schleife oder
 ein virtueller Endpunkt. Wählen Sie das, dessen Rate Ihnen vertraut ist, meist
 16 kHz oder 44,1/48 kHz.
+
+![Mikrofon auswählen](../images/voxspica_device.png)
 
 ## Diktieren
 
@@ -159,6 +163,8 @@ Eine markierte Zeile zeigt unten den ganzen Text. Von dort aus geht
 
 Der Verlauf ist eine einfache SQLite-Datei im Benutzerprofil. Nichts wird
 hochgeladen, und die Datei zu löschen löscht den Verlauf.
+
+![Verlauf der Erkennungen](../images/voxspica_history.png)
 
 ## Oberflächensprache wechseln
 

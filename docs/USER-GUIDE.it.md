@@ -97,6 +97,8 @@ fallirebbe.
 I modelli vengono caricati in background all'avvio, quindi la registrazione
 parte appena il modello è caldo.
 
+![Gestione dei modelli di riconoscimento](../images/voxspica_models.png)
+
 ## Piccolo o grande?
 
 | | piccolo | grande |
@@ -123,6 +125,8 @@ predefiniti.
 Un microfono a 2 kHz non è una cattura reale: è un loop o un punto virtuale.
 Scegliete quello la cui frequenza vi suona nota, di solito 16 kHz o
 44,1/48 kHz.
+
+![Scelta del microfono](../images/voxspica_device.png)
 
 ## Dettatura
 
@@ -161,6 +165,8 @@ volta.
 
 La cronologia è un normale file SQLite nel profilo dell'utente. Non viene
 caricato nulla da nessuna parte, e cancellare il file cancella la cronologia.
+
+![Cronologia dei riconoscimenti](../images/voxspica_history.png)
 
 ## Cambiare la lingua dell'interfaccia
 

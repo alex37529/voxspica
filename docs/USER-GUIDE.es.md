@@ -94,6 +94,8 @@ ofrecer una descarga que fallaría.
 Los modelos se cargan en segundo plano al arrancar, así que la grabación
 empieza en cuanto el modelo está caliente.
 
+![Gestión de los modelos de reconocimiento](../images/voxspica_models.png)
+
 ## ¿Pequeño o grande?
 
 | | pequeño | grande |
@@ -120,6 +122,8 @@ predeterminados.
 Un micrófono a 2 kHz no es una captura real: es un bucle o un punto virtual.
 Elige el que tenga una frecuencia que te suene, normalmente 16 kHz o
 44,1/48 kHz.
+
+![Elegir micrófono](../images/voxspica_device.png)
 
 ## Dictar
 
@@ -159,6 +163,8 @@ vez.
 
 El historial es un archivo SQLite normal en el perfil del usuario. No se sube
 nada, y borrar el archivo borra el historial.
+
+![Historial de reconocimientos](../images/voxspica_history.png)
 
 ## Cambiar el idioma de la interfaz
 
