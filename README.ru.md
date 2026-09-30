@@ -17,7 +17,7 @@
 
 <p align="center">
   <img alt="Windows" src="https://img.shields.io/badge/Windows-10%20%2F%2011%20x64-0B1620?style=flat-square">
-  <img alt="Лицензия" src="https://img.shields.io/badge/лицензия-Apache--2.0-2C7BE0?style=flat-square">
+  <img alt="Лицензия" src="https://img.shields.io/badge/лицензия-proprietary-2C7BE0?style=flat-square">
   <img alt="Языки интерфейса" src="https://img.shields.io/badge/интерфейс-9%20языков-0B1620?style=flat-square">
   <img alt="Языки распознавания" src="https://img.shields.io/badge/распознавание-33%20языка-0B1620?style=flat-square">
   <img alt="Движок" src="https://img.shields.io/badge/ASR-VOSK%20(Kaldi)-0B1620?style=flat-square">
@@ -202,6 +202,6 @@ VoxSpica.exe history --search "meeting"     # что распознавалос�
 
 ## Лицензия
 
-Apache-2.0, см. [LICENSE](LICENSE). Распознавание выполняет
+Проприетарная, бесплатное использование, см. [LICENSE](LICENSE). Распознавание выполняет
 [VOSK](https://alphacephei.com/vosk/) (Apache-2.0); модели распознавания
 распространяет Alpha Cephei тоже под Apache-2.0.

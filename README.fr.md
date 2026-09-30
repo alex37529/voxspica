@@ -17,7 +17,7 @@
 
 <p align="center">
   <img alt="Windows" src="https://img.shields.io/badge/Windows-10%20%2F%2011%20x64-0B1620?style=flat-square">
-  <img alt="Licence" src="https://img.shields.io/badge/licence-Apache--2.0-2C7BE0?style=flat-square">
+  <img alt="Licence" src="https://img.shields.io/badge/licence-proprietary-2C7BE0?style=flat-square">
   <img alt="Langues de l'interface" src="https://img.shields.io/badge/interface-9%20langues-0B1620?style=flat-square">
   <img alt="Langues de reconnaissance" src="https://img.shields.io/badge/reconnaissance-33%20langues-0B1620?style=flat-square">
   <img alt="Moteur" src="https://img.shields.io/badge/ASR-VOSK%20(Kaldi)-0B1620?style=flat-square">
@@ -209,6 +209,6 @@ Site web : <https://voxspica.4crytobot.xyz>
 
 ## Licence
 
-Apache-2.0, voir [LICENSE](LICENSE). La reconnaissance est faite par
+Propriétaire, usage gratuit, voir [LICENSE](LICENSE). La reconnaissance est faite par
 [VOSK](https://alphacephei.com/vosk/) (Apache-2.0) ; les modèles de
 reconnaissance sont distribués par Alpha Cephei sous la même licence Apache-2.0.

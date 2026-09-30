@@ -17,7 +17,7 @@
 
 <p align="center">
   <img alt="Windows" src="https://img.shields.io/badge/Windows-10%20%2F%2011%20x64-0B1620?style=flat-square">
-  <img alt="许可证" src="https://img.shields.io/badge/许可证-Apache--2.0-2C7BE0?style=flat-square">
+  <img alt="许可证" src="https://img.shields.io/badge/许可证-proprietary-2C7BE0?style=flat-square">
   <img alt="界面语言" src="https://img.shields.io/badge/界面-9%20种语言-0B1620?style=flat-square">
   <img alt="识别语言" src="https://img.shields.io/badge/识别-33%20种语言-0B1620?style=flat-square">
   <img alt="引擎" src="https://img.shields.io/badge/ASR-VOSK%20(Kaldi)-0B1620?style=flat-square">
@@ -187,6 +187,6 @@ VoxSpica.exe history --search "meeting"      # 之前识别过什么
 
 ## 许可证
 
-Apache-2.0，见 [LICENSE](LICENSE)。识别由
+专有软件，免费使用，见 [LICENSE](LICENSE)。识别由
 [VOSK](https://alphacephei.com/vosk/)（Apache-2.0）完成；识别模型由
 Alpha Cephei 同样以 Apache-2.0 发布。
