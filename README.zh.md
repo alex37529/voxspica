@@ -108,6 +108,18 @@ CPU 上。不需要显卡，不需要网络，没有遥测。
 </tr>
 </table>
 
+### Scoop
+
+如果你已经在用 [Scoop](https://scoop.sh)：
+
+```powershell
+scoop bucket add voxspica https://github.com/alex37529/voxspica-scoop
+scoop install voxspica
+```
+
+它安装的是便携版，并把 `voxspica` 加进 PATH。清单的校验和取自该版本
+release 自带的 `SHA256SUMS.txt`，所以 `scoop update` 会自己拿到新版本。
+
 ### 七个安装包
 
 基础地址：<https://voxspica.4crytobot.xyz/downloads>

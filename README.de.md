@@ -114,6 +114,19 @@ Die portablen Fassungen liegen in den [Releases](https://github.com/alex37529/vo
 </tr>
 </table>
 
+### Scoop
+
+Wenn Sie [Scoop](https://scoop.sh) bereits verwenden:
+
+```powershell
+scoop bucket add voxspica https://github.com/alex37529/voxspica-scoop
+scoop install voxspica
+```
+
+Das installiert das portable Archiv und legt `voxspica` in den PATH. Das
+Manifest liest die Prüfsumme aus der `SHA256SUMS.txt` des Releases, damit
+`scoop update` neue Versionen selbst übernimmt.
+
 ### Die sieben Installateure
 
 Basisadresse: <https://voxspica.4crytobot.xyz/downloads>

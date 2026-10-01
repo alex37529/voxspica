@@ -115,6 +115,19 @@ Kaldi с открытым исходным кодом, работающая на
 </tr>
 </table>
 
+### Scoop
+
+Если у вас уже стоит [Scoop](https://scoop.sh):
+
+```powershell
+scoop bucket add voxspica https://github.com/alex37529/voxspica-scoop
+scoop install voxspica
+```
+
+Ставится портативная сборка, команда `voxspica` появляется в PATH. Манифест
+берёт контрольную сумму из `SHA256SUMS.txt` самого релиза, поэтому
+`scoop update` подхватывает новую версию сам.
+
 ### Семь установщиков
 
 Базовый адрес: <https://voxspica.4crytobot.xyz/downloads>
