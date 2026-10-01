@@ -114,6 +114,19 @@ Le build portatili sono in [Releases](https://github.com/alex37529/voxspica/rele
 </tr>
 </table>
 
+### Scoop
+
+Se usi già [Scoop](https://scoop.sh):
+
+```powershell
+scoop bucket add voxspica https://github.com/alex37529/voxspica-scoop
+scoop install voxspica
+```
+
+Installa l'archivio portatile e mette `voxspica` nel PATH. Il manifest legge
+il checksum dal `SHA256SUMS.txt` della release, così `scoop update` prende da
+solo le versioni nuove.
+
 ### I sette installer
 
 Indirizzo base: <https://voxspica.4crytobot.xyz/downloads>
