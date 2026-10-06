@@ -17,6 +17,8 @@
 
 <p align="center">
   <img alt="Windows" src="https://img.shields.io/badge/Windows-10%20%2F%2011%20x64-0B1620?style=flat-square">
+  <img alt="Ubuntu 22.04" src="https://img.shields.io/badge/platform-Ubuntu%2022.04-E95420?logo=ubuntu&logoColor=white">
+  <img alt="Ubuntu 24.04" src="https://img.shields.io/badge/platform-Ubuntu%2024.04-E95420?logo=ubuntu&logoColor=white">
   <img alt="Лицензия" src="https://img.shields.io/badge/лицензия-proprietary-2C7BE0?style=flat-square">
   <img alt="Языки интерфейса" src="https://img.shields.io/badge/интерфейс-9%20языков-0B1620?style=flat-square">
   <img alt="Языки распознавания" src="https://img.shields.io/badge/распознавание-33%20языка-0B1620?style=flat-square">
@@ -31,7 +33,7 @@
 
 ## Что это
 
-VoxSpica превращает речь в текст на Windows, и ничего не покидает компьютер.
+VoxSpica превращает речь в текст на Windows и Ubuntu, и ничего не покидает компьютер.
 Движок распознавания — [VOSK](https://alphacephei.com/vosk/), настольная сборка
 Kaldi с открытым исходным кодом, работающая на вашем процессоре. Без
 видеокарты, без сети, без телеметрии.
@@ -132,13 +134,13 @@ scoop install voxspica
 
 Базовый адрес: <https://voxspica.4crytobot.xyz/downloads>
 
-- <img src="https://flagcdn.com/16x12/gb.png" width="16" alt="GB"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.6-en-setup.exe"><code>VoxSpica-0.1.6-en-setup.exe</code></a> — English, 119.3 MB
-- <img src="https://flagcdn.com/16x12/ru.png" width="16" alt="RU"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.6-ru-setup.exe"><code>VoxSpica-0.1.6-ru-setup.exe</code></a> — Русский, 124.3 MB
-- <img src="https://flagcdn.com/16x12/de.png" width="16" alt="DE"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.6-de-setup.exe"><code>VoxSpica-0.1.6-de-setup.exe</code></a> — Deutsch, 124.3 MB
-- <img src="https://flagcdn.com/16x12/fr.png" width="16" alt="FR"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.6-fr-setup.exe"><code>VoxSpica-0.1.6-fr-setup.exe</code></a> — Français, 120.6 MB
-- <img src="https://flagcdn.com/16x12/es.png" width="16" alt="ES"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.6-es-setup.exe"><code>VoxSpica-0.1.6-es-setup.exe</code></a> — Español, 117.8 MB
-- <img src="https://flagcdn.com/16x12/it.png" width="16" alt="IT"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.6-it-setup.exe"><code>VoxSpica-0.1.6-it-setup.exe</code></a> — Italiano, 127.7 MB
-- <img src="https://flagcdn.com/16x12/cn.png" width="16" alt="CN"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.6-zh-setup.exe"><code>VoxSpica-0.1.6-zh-setup.exe</code></a> — 简体中文, 122.0 MB
+- <img src="https://flagcdn.com/16x12/gb.png" width="16" alt="GB"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.7-en-setup.exe"><code>VoxSpica-0.1.7-en-setup.exe</code></a> — English, 113.8 MB
+- <img src="https://flagcdn.com/16x12/ru.png" width="16" alt="RU"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.7-ru-setup.exe"><code>VoxSpica-0.1.7-ru-setup.exe</code></a> — Русский, 118.6 MB
+- <img src="https://flagcdn.com/16x12/de.png" width="16" alt="DE"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.7-de-setup.exe"><code>VoxSpica-0.1.7-de-setup.exe</code></a> — Deutsch, 118.5 MB
+- <img src="https://flagcdn.com/16x12/fr.png" width="16" alt="FR"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.7-fr-setup.exe"><code>VoxSpica-0.1.7-fr-setup.exe</code></a> — Français, 115.0 MB
+- <img src="https://flagcdn.com/16x12/es.png" width="16" alt="ES"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.7-es-setup.exe"><code>VoxSpica-0.1.7-es-setup.exe</code></a> — Español, 112.4 MB
+- <img src="https://flagcdn.com/16x12/it.png" width="16" alt="IT"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.7-it-setup.exe"><code>VoxSpica-0.1.7-it-setup.exe</code></a> — Italiano, 121.8 MB
+- <img src="https://flagcdn.com/16x12/cn.png" width="16" alt="CN"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.7-zh-setup.exe"><code>VoxSpica-0.1.7-zh-setup.exe</code></a> — 简体中文, 116.4 MB
 
 Список называет одну версию и заменяется при выходе следующей. Портативный
 архив здесь намеренно отсутствует: он лежит в релизе, и он же подходит, если
@@ -152,6 +154,20 @@ scoop install voxspica
 > сообщит о неизвестном издателе. Нажмите *Подробнее* → *Выполнить в любом
 > случае*. Подробности — в разделе
 > [о чём это не умеет](#о-чём-это-не-умеет).
+
+### Ubuntu / Debian
+
+Для **Ubuntu 22.04** и **24.04** (а также Debian 12 и новее) есть нативный
+пакет `voxspica_0.1.7_amd64.deb`. Он — ассет релиза, а не в списке выше.
+Скачайте его, затем:
+
+```bash
+sudo dpkg -i voxspica_0.1.7_amd64.deb
+```
+
+или через менеджер пакетов: `sudo apt install ./voxspica_0.1.7_amd64.deb`.
+Модель распознавания в `.deb` не включена; при первом запуске выберите язык и
+скачайте модель — как в Windows.
 
 ## Первый запуск
 
@@ -199,7 +215,7 @@ VoxSpica.exe history --search "meeting"     # что распознавалос�
   восстанавливает регистр и ставит точку в конце фразы, но расставить запятые
   без разбора синтаксиса нельзя: любое простое правило даёт «Как, дела» вместо
   «Как дела».
-- **Только Windows x64.** Сборок под macOS и Linux нет.
+- **Windows x64 и теперь Ubuntu (22.04+).** Сборок под macOS нет.
 - **Модели отдельные.** Кроме установщиков под язык, модель не поставляется
   ни с чем, а весит от 50 МБ до 1,8 ГБ. Установщики — исключение: каждый
   несёт свою.

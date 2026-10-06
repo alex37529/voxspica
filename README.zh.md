@@ -17,6 +17,8 @@
 
 <p align="center">
   <img alt="Windows" src="https://img.shields.io/badge/Windows-10%20%2F%2011%20x64-0B1620?style=flat-square">
+  <img alt="Ubuntu 22.04" src="https://img.shields.io/badge/platform-Ubuntu%2022.04-E95420?logo=ubuntu&logoColor=white">
+  <img alt="Ubuntu 24.04" src="https://img.shields.io/badge/platform-Ubuntu%2024.04-E95420?logo=ubuntu&logoColor=white">
   <img alt="许可证" src="https://img.shields.io/badge/许可证-proprietary-2C7BE0?style=flat-square">
   <img alt="界面语言" src="https://img.shields.io/badge/界面-9%20种语言-0B1620?style=flat-square">
   <img alt="识别语言" src="https://img.shields.io/badge/识别-33%20种语言-0B1620?style=flat-square">
@@ -31,7 +33,7 @@
 
 ## 这是什么
 
-VoxSpica 在 Windows 上把语音转成文字，任何东西都不会离开电脑。识别引擎是
+VoxSpica 在 Windows 和 Ubuntu 上把语音转成文字，任何东西都不会离开电脑。识别引擎是
 [VOSK](https://alphacephei.com/vosk/)——Kaldi 的桌面版本，开源，运行在你的
 CPU 上。不需要显卡，不需要网络，没有遥测。
 
@@ -124,13 +126,13 @@ release 自带的 `SHA256SUMS.txt`，所以 `scoop update` 会自己拿到新版
 
 基础地址：<https://voxspica.4crytobot.xyz/downloads>
 
-- <img src="https://flagcdn.com/16x12/gb.png" width="16" alt="GB"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.6-en-setup.exe"><code>VoxSpica-0.1.6-en-setup.exe</code></a> — English, 119.3 MB
-- <img src="https://flagcdn.com/16x12/ru.png" width="16" alt="RU"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.6-ru-setup.exe"><code>VoxSpica-0.1.6-ru-setup.exe</code></a> — Русский, 124.3 MB
-- <img src="https://flagcdn.com/16x12/de.png" width="16" alt="DE"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.6-de-setup.exe"><code>VoxSpica-0.1.6-de-setup.exe</code></a> — Deutsch, 124.3 MB
-- <img src="https://flagcdn.com/16x12/fr.png" width="16" alt="FR"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.6-fr-setup.exe"><code>VoxSpica-0.1.6-fr-setup.exe</code></a> — Français, 120.6 MB
-- <img src="https://flagcdn.com/16x12/es.png" width="16" alt="ES"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.6-es-setup.exe"><code>VoxSpica-0.1.6-es-setup.exe</code></a> — Español, 117.8 MB
-- <img src="https://flagcdn.com/16x12/it.png" width="16" alt="IT"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.6-it-setup.exe"><code>VoxSpica-0.1.6-it-setup.exe</code></a> — Italiano, 127.7 MB
-- <img src="https://flagcdn.com/16x12/cn.png" width="16" alt="CN"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.6-zh-setup.exe"><code>VoxSpica-0.1.6-zh-setup.exe</code></a> — 简体中文, 122.0 MB
+- <img src="https://flagcdn.com/16x12/gb.png" width="16" alt="GB"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.7-en-setup.exe"><code>VoxSpica-0.1.7-en-setup.exe</code></a> — English, 113.8 MB
+- <img src="https://flagcdn.com/16x12/ru.png" width="16" alt="RU"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.7-ru-setup.exe"><code>VoxSpica-0.1.7-ru-setup.exe</code></a> — Русский, 118.6 MB
+- <img src="https://flagcdn.com/16x12/de.png" width="16" alt="DE"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.7-de-setup.exe"><code>VoxSpica-0.1.7-de-setup.exe</code></a> — Deutsch, 118.5 MB
+- <img src="https://flagcdn.com/16x12/fr.png" width="16" alt="FR"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.7-fr-setup.exe"><code>VoxSpica-0.1.7-fr-setup.exe</code></a> — Français, 115.0 MB
+- <img src="https://flagcdn.com/16x12/es.png" width="16" alt="ES"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.7-es-setup.exe"><code>VoxSpica-0.1.7-es-setup.exe</code></a> — Español, 112.4 MB
+- <img src="https://flagcdn.com/16x12/it.png" width="16" alt="IT"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.7-it-setup.exe"><code>VoxSpica-0.1.7-it-setup.exe</code></a> — Italiano, 121.8 MB
+- <img src="https://flagcdn.com/16x12/cn.png" width="16" alt="CN"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.7-zh-setup.exe"><code>VoxSpica-0.1.7-zh-setup.exe</code></a> — 简体中文, 116.4 MB
 
 这份列表写的是某一个版本，出了新版本就会替换。便携版压缩包故意不放进来：它在
 Releases 里，而且当你要的界面语言不在上面这份列表里时，它才是对的选择。旗帜
@@ -141,6 +143,18 @@ Releases 里，而且当你要的界面语言不在上面这份列表里时，�
 > **Windows 会弹出警告。** 编译产物没有做代码签名，SmartScreen 会提示未知
 > 发布者。点 *更多信息* → *仍要运行*。详见
 > [它做不到什么](#它做不到什么)。
+
+### Ubuntu / Debian
+
+**Ubuntu 22.04** 和 **24.04**（以及 Debian 12 及更新版本）有原生安装包
+`voxspica_0.1.7_amd64.deb`。它是 release 里的资产，不在上面的列表里。下载后：
+
+```bash
+sudo dpkg -i voxspica_0.1.7_amd64.deb
+```
+
+或包管理器：`sudo apt install ./voxspica_0.1.7_amd64.deb`。识别模型不在
+`.deb` 里；首次启动时选择语言并下载模型，与 Windows 相同。
 
 ## 第一次运行
 
@@ -185,7 +199,7 @@ VoxSpica.exe history --search "meeting"      # 之前识别过什么
 - **没有逗号。** VOSK 输出的词不带标点。VoxSpica 会还原大小写，并在句末加
   句号，但不做语法分析就无法正确断句——任何简单规则都会把「你好吗」变成
   「你好，吗」。
-- **只有 Windows x64。** 没有 macOS 和 Linux 版本。
+- **Windows x64，现在还有 Ubuntu（22.04+）。** 没有 macOS 版本。
 - **模型要单独下。** 除了分语言安装包，程序本身不带任何模型，而模型从 50 MB
   到 1.8 GB 不等。分语言安装包是例外：每个都自带一个。
 

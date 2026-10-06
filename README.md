@@ -17,6 +17,8 @@
 
 <p align="center">
   <img alt="Windows" src="https://img.shields.io/badge/Windows-10%20%2F%2011%20x64-0B1620?style=flat-square">
+  <img alt="Ubuntu 22.04" src="https://img.shields.io/badge/platform-Ubuntu%2022.04-E95420?logo=ubuntu&logoColor=white">
+  <img alt="Ubuntu 24.04" src="https://img.shields.io/badge/platform-Ubuntu%2024.04-E95420?logo=ubuntu&logoColor=white">
   <img alt="License" src="https://img.shields.io/badge/license-proprietary-2C7BE0?style=flat-square">
   <img alt="Interface languages" src="https://img.shields.io/badge/interface-9%20languages-0B1620?style=flat-square">
   <img alt="Recognition languages" src="https://img.shields.io/badge/recognition-33%20languages-0B1620?style=flat-square">
@@ -31,9 +33,9 @@
 
 ## What it is
 
-VoxSpica turns speech into text on Windows and nothing leaves the machine. The
-recognition engine is [VOSK](https://alphacephei.com/vosk/) — a desktop build of
-Kaldi, open source — running on your CPU. No GPU, no network, no telemetry.
+VoxSpica turns speech into text on Windows and Ubuntu, and nothing leaves the
+machine. The recognition engine is [VOSK](https://alphacephei.com/vosk/) — a
+desktop build of Kaldi, open source — running on your CPU. No GPU, no network, no telemetry.
 
 It works two ways:
 
@@ -129,13 +131,13 @@ manifest reads the checksum from the release's own `SHA256SUMS.txt`, so
 
 Base URL: <https://voxspica.4crytobot.xyz/downloads>
 
-- <img src="https://flagcdn.com/16x12/gb.png" width="16" alt="GB"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.6-en-setup.exe"><code>VoxSpica-0.1.6-en-setup.exe</code></a> — English, 119.3 MB
-- <img src="https://flagcdn.com/16x12/ru.png" width="16" alt="RU"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.6-ru-setup.exe"><code>VoxSpica-0.1.6-ru-setup.exe</code></a> — Russian, 124.3 MB
-- <img src="https://flagcdn.com/16x12/de.png" width="16" alt="DE"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.6-de-setup.exe"><code>VoxSpica-0.1.6-de-setup.exe</code></a> — German, 124.3 MB
-- <img src="https://flagcdn.com/16x12/fr.png" width="16" alt="FR"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.6-fr-setup.exe"><code>VoxSpica-0.1.6-fr-setup.exe</code></a> — French, 120.6 MB
-- <img src="https://flagcdn.com/16x12/es.png" width="16" alt="ES"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.6-es-setup.exe"><code>VoxSpica-0.1.6-es-setup.exe</code></a> — Spanish, 117.8 MB
-- <img src="https://flagcdn.com/16x12/it.png" width="16" alt="IT"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.6-it-setup.exe"><code>VoxSpica-0.1.6-it-setup.exe</code></a> — Italian, 127.7 MB
-- <img src="https://flagcdn.com/16x12/cn.png" width="16" alt="CN"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.6-zh-setup.exe"><code>VoxSpica-0.1.6-zh-setup.exe</code></a> — Chinese, 122.0 MB
+- <img src="https://flagcdn.com/16x12/gb.png" width="16" alt="GB"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.7-en-setup.exe"><code>VoxSpica-0.1.7-en-setup.exe</code></a> — English, 113.8 MB
+- <img src="https://flagcdn.com/16x12/ru.png" width="16" alt="RU"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.7-ru-setup.exe"><code>VoxSpica-0.1.7-ru-setup.exe</code></a> — Russian, 118.6 MB
+- <img src="https://flagcdn.com/16x12/de.png" width="16" alt="DE"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.7-de-setup.exe"><code>VoxSpica-0.1.7-de-setup.exe</code></a> — German, 118.5 MB
+- <img src="https://flagcdn.com/16x12/fr.png" width="16" alt="FR"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.7-fr-setup.exe"><code>VoxSpica-0.1.7-fr-setup.exe</code></a> — French, 115.0 MB
+- <img src="https://flagcdn.com/16x12/es.png" width="16" alt="ES"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.7-es-setup.exe"><code>VoxSpica-0.1.7-es-setup.exe</code></a> — Spanish, 112.4 MB
+- <img src="https://flagcdn.com/16x12/it.png" width="16" alt="IT"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.7-it-setup.exe"><code>VoxSpica-0.1.7-it-setup.exe</code></a> — Italian, 121.8 MB
+- <img src="https://flagcdn.com/16x12/cn.png" width="16" alt="CN"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.7-zh-setup.exe"><code>VoxSpica-0.1.7-zh-setup.exe</code></a> — Chinese, 116.4 MB
 
 The list names one version and is replaced when a new one is published. The
 portable archive is deliberately not in it — that one is in the release, and it
@@ -148,7 +150,22 @@ still work, only the pictures disappear.
 
 > **Windows will warn you.** The builds are not code-signed, so SmartScreen
 > shows an unknown publisher. Click *More info* → *Run anyway*. See
-> [known limitations](#what-this-does-not-do) — signing is on the list.
+> [known limitations](#what-this-does-not-do) — signing is on the list. This
+> is Windows only — the Ubuntu `.deb` installs normally with no such warning.
+
+### Ubuntu / Debian
+
+A native `voxspica_0.1.7_amd64.deb` for **Ubuntu 22.04** and **24.04** (and
+Debian 12 and later). It is a [release asset](https://github.com/alex37529/voxspica/releases/tag/v0.1.7),
+not in the list above. Download it, then:
+
+```bash
+sudo dpkg -i voxspica_0.1.7_amd64.deb
+```
+
+or from a package manager: `sudo apt install ./voxspica_0.1.7_amd64.deb`.
+The recognition model is not inside the `.deb`; on first launch pick a
+language and download a model, same as on Windows.
 
 ## First run
 
@@ -190,12 +207,13 @@ VoxSpica.exe history --search "meeting"     # what was recognised before
 
 Written plainly, because this is the part that usually gets discovered later.
 
-- **Not code-signed.** Windows shows a SmartScreen warning on every install.
+- **Not signed on Windows.** SmartScreen (a Windows tool) warns of an
+  unknown publisher. Does not apply on Ubuntu.
 - **No commas.** VOSK outputs words without punctuation. VoxSpica restores
   capitalisation and puts a full stop at the end of a sentence, but it cannot
   place commas without parsing syntax — any simple rule produces
   "How, are you" instead of "How are you".
-- **Windows x64 only.** macOS and Linux are not built.
+- **Windows x64, and now Ubuntu (22.04+).** No macOS build.
 - **Models are separate.** Nothing but the portable archive ships a model, and
   the models are 50 MB to 1.8 GB. The per-language installers are the exception:
   they carry one.

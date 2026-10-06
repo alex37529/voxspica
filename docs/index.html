@@ -155,6 +155,18 @@
   ul.installers a { flex: 1; min-width: 0; }
   ul.installers code { color: var(--fg); }
   ul.installers .size { color: var(--muted); font-variant-numeric: tabular-nums; }
+  .deb {
+    margin: 1.25rem 0 0;
+    padding: 0.85rem 1rem;
+    border: 1px solid var(--line);
+    border-left: 3px solid var(--accent);
+    border-radius: 6px;
+    color: var(--muted);
+    font-size: 0.95rem;
+    line-height: 1.55;
+  }
+  .deb b { color: var(--fg); }
+  .deb code { color: var(--fg); }
 
   /* --- limits ---------------------------------------------------------- */
 
@@ -211,11 +223,11 @@
     <div class="hero">
       <h1>Your voice stays on your computer.</h1>
       <p>
-        VoxSpica turns speech into text on Windows and sends nothing anywhere.
-        Recognition runs on your CPU through <strong>VOSK</strong>, a desktop
-        build of Kaldi. No account, no subscription, no cloud — the model is on
-        your disk, the database is on your disk, and there is no code path that
-        opens a socket.
+        VoxSpica turns speech into text on Windows and Ubuntu and sends nothing
+        anywhere. Recognition runs on your CPU through <strong>VOSK</strong>, a
+        desktop build of Kaldi. No account, no subscription, no cloud — the
+        model is on your disk, the database is on your disk, and there is no
+        code path that opens a socket.
       </p>
       <div class="cta">
         <a class="btn btn-primary" href="https://github.com/alex37529/voxspica/releases">Download</a>
@@ -277,14 +289,23 @@
         Pick yours, untick the box when you have the file.
       </p>
       <ul class="installers">
-        <li><img src="https://flagcdn.com/20x15/gb.png" alt="GB" width="20" height="15"><a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.6-en-setup.exe"><code>VoxSpica-0.1.6-en-setup.exe</code></a><span class="size">119.3 MB</span></li>
-        <li><img src="https://flagcdn.com/20x15/ru.png" alt="RU" width="20" height="15"><a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.6-ru-setup.exe"><code>VoxSpica-0.1.6-ru-setup.exe</code></a><span class="size">124.3 MB</span></li>
-        <li><img src="https://flagcdn.com/20x15/de.png" alt="DE" width="20" height="15"><a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.6-de-setup.exe"><code>VoxSpica-0.1.6-de-setup.exe</code></a><span class="size">124.3 MB</span></li>
-        <li><img src="https://flagcdn.com/20x15/fr.png" alt="FR" width="20" height="15"><a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.6-fr-setup.exe"><code>VoxSpica-0.1.6-fr-setup.exe</code></a><span class="size">120.6 MB</span></li>
-        <li><img src="https://flagcdn.com/20x15/es.png" alt="ES" width="20" height="15"><a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.6-es-setup.exe"><code>VoxSpica-0.1.6-es-setup.exe</code></a><span class="size">117.8 MB</span></li>
-        <li><img src="https://flagcdn.com/20x15/it.png" alt="IT" width="20" height="15"><a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.6-it-setup.exe"><code>VoxSpica-0.1.6-it-setup.exe</code></a><span class="size">127.7 MB</span></li>
-        <li><img src="https://flagcdn.com/20x15/cn.png" alt="CN" width="20" height="15"><a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.6-zh-setup.exe"><code>VoxSpica-0.1.6-zh-setup.exe</code></a><span class="size">122.0 MB</span></li>
+        <li><img src="https://flagcdn.com/20x15/gb.png" alt="GB" width="20" height="15"><a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.7-en-setup.exe"><code>VoxSpica-0.1.7-en-setup.exe</code></a><span class="size">113.8 MB</span></li>
+        <li><img src="https://flagcdn.com/20x15/ru.png" alt="RU" width="20" height="15"><a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.7-ru-setup.exe"><code>VoxSpica-0.1.7-ru-setup.exe</code></a><span class="size">118.6 MB</span></li>
+        <li><img src="https://flagcdn.com/20x15/de.png" alt="DE" width="20" height="15"><a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.7-de-setup.exe"><code>VoxSpica-0.1.7-de-setup.exe</code></a><span class="size">118.5 MB</span></li>
+        <li><img src="https://flagcdn.com/20x15/fr.png" alt="FR" width="20" height="15"><a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.7-fr-setup.exe"><code>VoxSpica-0.1.7-fr-setup.exe</code></a><span class="size">115.0 MB</span></li>
+        <li><img src="https://flagcdn.com/20x15/es.png" alt="ES" width="20" height="15"><a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.7-es-setup.exe"><code>VoxSpica-0.1.7-es-setup.exe</code></a><span class="size">112.4 MB</span></li>
+        <li><img src="https://flagcdn.com/20x15/it.png" alt="IT" width="20" height="15"><a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.7-it-setup.exe"><code>VoxSpica-0.1.7-it-setup.exe</code></a><span class="size">121.8 MB</span></li>
+        <li><img src="https://flagcdn.com/20x15/cn.png" alt="CN" width="20" height="15"><a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.7-zh-setup.exe"><code>VoxSpica-0.1.7-zh-setup.exe</code></a><span class="size">116.4 MB</span></li>
       </ul>
+      <p class="deb">
+        <b>Ubuntu / Debian</b> — a native
+        <a href="https://github.com/alex37529/voxspica/releases/tag/v0.1.7"><code>voxspica_0.1.7_amd64.deb</code></a>
+        for Ubuntu 22.04 and 24.04 (and Debian 12+). It is a release asset,
+        not in the list above. Download it, then
+        <code>sudo dpkg -i voxspica_0.1.7_amd64.deb</code>.
+        The recognition model is not inside the .deb; on first launch pick a
+        language and download a model, same as on Windows.
+      </p>
     </div>
   </section>
 
@@ -293,9 +314,9 @@
       <h2>What it does not do</h2>
       <p class="lede">Written plainly, because this is the part usually discovered later.</p>
       <ul class="limits">
-        <li><b>Not code-signed</b><span>Windows shows a SmartScreen warning on every install. More info → Run anyway.</span></li>
+        <li><b>Not signed on Windows</b><span>SmartScreen (a Windows tool) warns of an unknown publisher. More info → Run anyway. Not an issue on Ubuntu.</span></li>
         <li><b>No commas</b><span>VOSK outputs words without punctuation. Capitalisation and sentence stops are restored; commas are not, because placing them without a syntax model produces worse results than none.</span></li>
-        <li><b>Windows x64 only</b><span>No macOS and no Linux build.</span></li>
+        <li><b>Windows x64, and Ubuntu 22.04+</b><span>No macOS build.</span></li>
         <li><b>Models are separate</b><span>50 MB to 1.8 GB, downloaded once. The per-language installers are the exception: each carries one.</span></li>
       </ul>
     </div>
