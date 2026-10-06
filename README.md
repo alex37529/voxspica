@@ -5,7 +5,7 @@
 <h1 align="center">VoxSpica</h1>
 
 <p align="center">
-  <b>Free speech-to-text for Windows that never sends your voice anywhere.</b><br>
+  <b>Free speech-to-text for Windows Ubuntu/Debian that never sends your voice anywhere.</b><br>
   <sub>Your voice stays on your computer. No account, no subscription, no cloud.</sub>
 </p>
 
@@ -33,7 +33,7 @@
 
 ## What it is
 
-VoxSpica turns speech into text on Windows and Ubuntu, and nothing leaves the
+VoxSpica turns speech into text on Windows or Ubuntu/Debian, and nothing leaves the
 machine. The recognition engine is [VOSK](https://alphacephei.com/vosk/) — a
 desktop build of Kaldi, open source — running on your CPU. No GPU, no network, no telemetry.
 
