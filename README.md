@@ -16,9 +16,9 @@
 </p>
 
 <p align="center">
-  <img alt="Windows" src="https://img.shields.io/badge/Windows-10%20%2F%2011%20x64-0B1620?style=flat-square">
-  <img alt="Ubuntu 22.04" src="https://img.shields.io/badge/platform-Ubuntu%2022.04-E95420?logo=ubuntu&logoColor=white">
-  <img alt="Ubuntu 24.04" src="https://img.shields.io/badge/platform-Ubuntu%2024.04-E95420?logo=ubuntu&logoColor=white">
+<img alt="Windows 10 / 11 x64" src="https://img.shields.io/badge/Windows-10%20%2F%2011%20x64-0078D4?style=flat-square&logo=windows&logoColor=white">
+<img alt="Ubuntu 22.04" src="https://img.shields.io/badge/Ubuntu-22.04-E95420?style=flat-square&logo=ubuntu&logoColor=white">
+<img alt="Debian" src="https://img.shields.io/badge/Debian-12-A81D33?style=flat-square&logo=debian&logoColor=white">
   <img alt="License" src="https://img.shields.io/badge/license-proprietary-2C7BE0?style=flat-square">
   <img alt="Interface languages" src="https://img.shields.io/badge/interface-9%20languages-0B1620?style=flat-square">
   <img alt="Recognition languages" src="https://img.shields.io/badge/recognition-33%20languages-0B1620?style=flat-square">
