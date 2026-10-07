@@ -238,6 +238,7 @@ it repeats, the network is cutting the transfer.
 ## See also
 
 - [LANGUAGES.md](LANGUAGES.md) — all 33 recognition languages and their models
+- [INSTALL-LINUX.md](INSTALL-LINUX.md) — installing on Ubuntu and Debian
 - [Русский](USER-GUIDE.ru.md) · [中文 README](../README.zh.md) · [Русский README](../README.ru.md)
 - [README](../README.md) — what it is, and what it does not do
 - <https://voxspica.4crytobot.xyz> — the website

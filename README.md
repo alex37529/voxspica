@@ -174,6 +174,9 @@ Check the key fingerprint `F118 995C 50C1 EACB 4922 A330 DBF9 437A 1181 5D9`
 against the [release notes](https://github.com/alex37529/voxspica/releases)
 before trusting it.
 
+Full walkthrough, including what to do when the key is rejected:
+**[docs/INSTALL-LINUX.md](docs/INSTALL-LINUX.md)**.
+
 **Or download the `.deb`** — `voxspica_0.1.7_amd64.deb` for **Ubuntu 22.04**
 and **24.04** (and Debian 12 and later). It is a
 [release asset](https://github.com/alex37529/voxspica/releases/tag/v0.1.7),
