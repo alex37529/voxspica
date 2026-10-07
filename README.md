@@ -131,13 +131,13 @@ manifest reads the checksum from the release's own `SHA256SUMS.txt`, so
 
 Base URL: <https://voxspica.4crytobot.xyz/downloads>
 
-- <img src="https://flagcdn.com/16x12/gb.png" width="16" alt="GB"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.7-en-setup.exe"><code>VoxSpica-0.1.7-en-setup.exe</code></a> — English, 113.8 MB
-- <img src="https://flagcdn.com/16x12/ru.png" width="16" alt="RU"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.7-ru-setup.exe"><code>VoxSpica-0.1.7-ru-setup.exe</code></a> — Russian, 118.6 MB
-- <img src="https://flagcdn.com/16x12/de.png" width="16" alt="DE"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.7-de-setup.exe"><code>VoxSpica-0.1.7-de-setup.exe</code></a> — German, 118.5 MB
-- <img src="https://flagcdn.com/16x12/fr.png" width="16" alt="FR"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.7-fr-setup.exe"><code>VoxSpica-0.1.7-fr-setup.exe</code></a> — French, 115.0 MB
-- <img src="https://flagcdn.com/16x12/es.png" width="16" alt="ES"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.7-es-setup.exe"><code>VoxSpica-0.1.7-es-setup.exe</code></a> — Spanish, 112.4 MB
-- <img src="https://flagcdn.com/16x12/it.png" width="16" alt="IT"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.7-it-setup.exe"><code>VoxSpica-0.1.7-it-setup.exe</code></a> — Italian, 121.8 MB
-- <img src="https://flagcdn.com/16x12/cn.png" width="16" alt="CN"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.7-zh-setup.exe"><code>VoxSpica-0.1.7-zh-setup.exe</code></a> — Chinese, 116.4 MB
+- <img src="https://flagcdn.com/16x12/gb.png" width="16" alt="GB"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.8-en-setup.exe"><code>VoxSpica-0.1.8-en-setup.exe</code></a> — English, 124.6 MB
+- <img src="https://flagcdn.com/16x12/ru.png" width="16" alt="RU"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.8-ru-setup.exe"><code>VoxSpica-0.1.8-ru-setup.exe</code></a> — Russian, 129.5 MB
+- <img src="https://flagcdn.com/16x12/de.png" width="16" alt="DE"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.8-de-setup.exe"><code>VoxSpica-0.1.8-de-setup.exe</code></a> — German, 129.5 MB
+- <img src="https://flagcdn.com/16x12/fr.png" width="16" alt="FR"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.8-fr-setup.exe"><code>VoxSpica-0.1.8-fr-setup.exe</code></a> — French, 125.8 MB
+- <img src="https://flagcdn.com/16x12/es.png" width="16" alt="ES"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.8-es-setup.exe"><code>VoxSpica-0.1.8-es-setup.exe</code></a> — Spanish, 123.1 MB
+- <img src="https://flagcdn.com/16x12/it.png" width="16" alt="IT"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.8-it-setup.exe"><code>VoxSpica-0.1.8-it-setup.exe</code></a> — Italian, 132.9 MB
+- <img src="https://flagcdn.com/16x12/cn.png" width="16" alt="CN"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.8-zh-setup.exe"><code>VoxSpica-0.1.8-zh-setup.exe</code></a> — Chinese, 127.3 MB
 
 The list names one version and is replaced when a new one is published. The
 portable archive is deliberately not in it — that one is in the release, and it
@@ -177,16 +177,16 @@ before trusting it.
 Full walkthrough, including what to do when the key is rejected:
 **[docs/INSTALL-LINUX.md](docs/INSTALL-LINUX.md)**.
 
-**Or download the `.deb`** — `voxspica_0.1.7_amd64.deb` for **Ubuntu 22.04**
+**Or download the `.deb`** — `voxspica_0.1.8_amd64.deb` for **Ubuntu 22.04**
 and **24.04** (and Debian 12 and later). It is a
-[release asset](https://github.com/alex37529/voxspica/releases/tag/v0.1.7),
+[release asset](https://github.com/alex37529/voxspica/releases/tag/v0.1.8),
 not in the list above:
 
 ```bash
-sudo dpkg -i voxspica_0.1.7_amd64.deb
+sudo dpkg -i voxspica_0.1.8_amd64.deb
 ```
 
-or from a package manager: `sudo apt install ./voxspica_0.1.7_amd64.deb`.
+or from a package manager: `sudo apt install ./voxspica_0.1.8_amd64.deb`.
 
 Worth knowing if you pick this one: opening a `.deb` file in the Software app
 shows a placeholder icon, with no screenshot and no description. That view
