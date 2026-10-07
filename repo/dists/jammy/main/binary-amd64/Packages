@@ -1,5 +1,5 @@
 Package: voxspica
-Version: 0.1.7
+Version: 0.1.8
 Architecture: amd64
 Maintainer: ALYAKSANDR MAKEENAK <6836808@gmail.com>
 Installed-Size: 201112
@@ -9,8 +9,8 @@ Section: sound
 Priority: optional
 Description: VoxSpica - free offline speech to text (VOSK)
  Recognizes speech offline, on CPU, with no cloud and nothing sent to the internet.
-Filename: pool/main/v/voxspica/voxspica_0.1.7_amd64.deb
-Size: 56168494
-MD5sum: 898d136d7a8f46f66c01d04cd66291cb
-SHA256: a96735f1086705298d3f64a9c5758b58cdd4c20aeba6011f522f1a166ae09145
+Filename: pool/main/v/voxspica/voxspica_0.1.8_amd64.deb
+Size: 56168378
+MD5sum: e4781ef9db1c20762d7f429759437ceb
+SHA256: 7e60fae267c611284c382171435a19b7efe96e493980f458cc57d459d8ddb4d6
 
