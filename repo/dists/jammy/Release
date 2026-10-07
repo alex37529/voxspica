@@ -1,0 +1,14 @@
+Origin: VoxSpica
+Label: VoxSpica
+Suite: jammy
+Codename: jammy
+Architectures: amd64
+Components: main
+Description: VoxSpica offline speech to text
+Date: Wed, 07 Oct 2026 10:16:30 GMT
+MD5Sum:
+ 183855aab10fa4469cafa9da67428b0c              636 main/binary-amd64/Packages
+ c186b0d9e660e9db07ef5e30a1e0a56b              468 main/binary-amd64/Packages.gz
+SHA256:
+ 6dd1cd9ca9f90d1aa07b8f45991d3420366e8fec615525b1e8701c29b011672c              636 main/binary-amd64/Packages
+ 37dde9f6183ac45e4704577f4173be94407b2883da78a2565b5fb7407ca07599              468 main/binary-amd64/Packages.gz

@@ -1,0 +1,33 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: VoxSpica
+Label: VoxSpica
+Suite: noble
+Codename: noble
+Architectures: amd64
+Components: main
+Description: VoxSpica offline speech to text
+Date: Wed, 07 Oct 2026 10:16:30 GMT
+MD5Sum:
+ 183855aab10fa4469cafa9da67428b0c              636 main/binary-amd64/Packages
+ c186b0d9e660e9db07ef5e30a1e0a56b              468 main/binary-amd64/Packages.gz
+SHA256:
+ 6dd1cd9ca9f90d1aa07b8f45991d3420366e8fec615525b1e8701c29b011672c              636 main/binary-amd64/Packages
+ 37dde9f6183ac45e4704577f4173be94407b2883da78a2565b5fb7407ca07599              468 main/binary-amd64/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEE8RiZXFDB6stJIiozDb+UN6EYFdkFAmrGG/4ACgkQDb+UN6EY
+FdmG/BAA5gDF4KAy7teVSM+K3br1potoCwSpIJC4muFUzzDen/G5Ut+WeflwIUWt
+2xKYZCfs3xhg9npSLJqamRr8gmjTOle8ccN/MY6ONviqVEWtN83kz2T9S5mqhop3
+4N+uS4JXLh8X2U7omsR8l7h1lJkEbKIio55hwibFLNZvSmtMoBG0d7029sjyc60K
+oV6vYBigegRI9+4j6NIUnQBrjdOrFKqNaJuTCpNqPGzGr16GgK2MibtNWouCbr2Y
+QCdYkX/ezK/gDDyXDBy/DV53mF3mVdgNrr5jj+61GCGjwmAUEwMaN9+jNzVRl+p3
+YkfWb7IVATzR85sZ2du6IOxeg1Db8eves+DZS069xiMATWVp5p4+zKdhQsZuTFHu
+/4+kRHcWkOphz08gNrvX4jvYzSJrSElHPuL+pn/FSWH1wL6J2CJ95aOa/dJlDYgq
+K3DctppXpOS6aGWgSSxOr2AL09AyTCqosq56IypvWTLCqY/MX6L+vbpvOhklE6pk
+xsAVucmq1cZloJn28M6P0LIr5btlUWLwclPlNe9hQ+Pn33LiVICjRZusSTb2Ee+F
+KRCdsFQU6/EV5c2diJp/K18/8BsaDCyyaQu9Pw14iBi5LkBSxqmWSzSdTXWBgJPJ
+ywyk32HhPrtEk9OoUBfBUmeS7XUniF1a6OvMiHe+C/8uV6rF8rk=
+=IAE0
+-----END PGP SIGNATURE-----

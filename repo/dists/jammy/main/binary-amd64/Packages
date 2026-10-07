@@ -1,0 +1,16 @@
+Package: voxspica
+Version: 0.1.7
+Architecture: amd64
+Maintainer: ALYAKSANDR MAKEENAK <6836808@gmail.com>
+Installed-Size: 201112
+Homepage: https://github.com/alex37529/voxspica
+Depends: libportaudio2, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-libav
+Section: sound
+Priority: optional
+Description: VoxSpica - free offline speech to text (VOSK)
+ Recognizes speech offline, on CPU, with no cloud and nothing sent to the internet.
+Filename: pool/main/v/voxspica/voxspica_0.1.7_amd64.deb
+Size: 56168494
+MD5sum: 898d136d7a8f46f66c01d04cd66291cb
+SHA256: a96735f1086705298d3f64a9c5758b58cdd4c20aeba6011f522f1a166ae09145
+

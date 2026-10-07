@@ -155,17 +155,42 @@ still work, only the pictures disappear.
 
 ### Ubuntu / Debian
 
-A native `voxspica_0.1.7_amd64.deb` for **Ubuntu 22.04** and **24.04** (and
-Debian 12 and later). It is a [release asset](https://github.com/alex37529/voxspica/releases/tag/v0.1.7),
-not in the list above. Download it, then:
+**From the APT repository** — this is the way to install. The key, then the
+repository, then `apt`:
+
+```bash
+curl -fsSL https://alex37529.github.io/voxspica/voxspica-archive-keyring.asc \
+  | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/voxspica.gpg
+echo "deb https://alex37529.github.io/voxspica/repo/ jammy main" \
+  | sudo tee /etc/apt/sources.list.d/voxspica.list
+sudo apt update
+sudo apt install voxspica
+```
+
+Change `jammy` to `noble` on Ubuntu 24.04. Later versions are picked up with
+plain `sudo apt upgrade`.
+
+Check the key fingerprint `F118 995C 50C1 EACB 4922 A330 DBF9 437A 1181 5D9`
+against the [release notes](https://github.com/alex37529/voxspica/releases)
+before trusting it.
+
+**Or download the `.deb`** — `voxspica_0.1.7_amd64.deb` for **Ubuntu 22.04**
+and **24.04** (and Debian 12 and later). It is a
+[release asset](https://github.com/alex37529/voxspica/releases/tag/v0.1.7),
+not in the list above:
 
 ```bash
 sudo dpkg -i voxspica_0.1.7_amd64.deb
 ```
 
 or from a package manager: `sudo apt install ./voxspica_0.1.7_amd64.deb`.
-The recognition model is not inside the `.deb`; on first launch pick a
-language and download a model, same as on Windows.
+
+Worth knowing if you pick this one: opening a `.deb` file in the Software app
+shows a placeholder icon, with no screenshot and no description. That view
+reads no metadata at all — only the **installed** package appears properly, and
+only when it came from the repository above. The recognition model is not in
+either form; on first launch pick a language and download a model, same as on
+Windows.
 
 ## First run
 
