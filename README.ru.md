@@ -134,13 +134,13 @@ scoop install voxspica
 
 Базовый адрес: <https://voxspica.4crytobot.xyz/downloads>
 
-- <img src="https://flagcdn.com/16x12/gb.png" width="16" alt="GB"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.7-en-setup.exe"><code>VoxSpica-0.1.7-en-setup.exe</code></a> — English, 113.8 MB
-- <img src="https://flagcdn.com/16x12/ru.png" width="16" alt="RU"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.7-ru-setup.exe"><code>VoxSpica-0.1.7-ru-setup.exe</code></a> — Русский, 118.6 MB
-- <img src="https://flagcdn.com/16x12/de.png" width="16" alt="DE"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.7-de-setup.exe"><code>VoxSpica-0.1.7-de-setup.exe</code></a> — Deutsch, 118.5 MB
-- <img src="https://flagcdn.com/16x12/fr.png" width="16" alt="FR"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.7-fr-setup.exe"><code>VoxSpica-0.1.7-fr-setup.exe</code></a> — Français, 115.0 MB
-- <img src="https://flagcdn.com/16x12/es.png" width="16" alt="ES"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.7-es-setup.exe"><code>VoxSpica-0.1.7-es-setup.exe</code></a> — Español, 112.4 MB
-- <img src="https://flagcdn.com/16x12/it.png" width="16" alt="IT"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.7-it-setup.exe"><code>VoxSpica-0.1.7-it-setup.exe</code></a> — Italiano, 121.8 MB
-- <img src="https://flagcdn.com/16x12/cn.png" width="16" alt="CN"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.7-zh-setup.exe"><code>VoxSpica-0.1.7-zh-setup.exe</code></a> — 简体中文, 116.4 MB
+- <img src="https://flagcdn.com/16x12/gb.png" width="16" alt="GB"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.8-en-setup.exe"><code>VoxSpica-0.1.8-en-setup.exe</code></a> — English, 124.6 MB
+- <img src="https://flagcdn.com/16x12/ru.png" width="16" alt="RU"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.8-ru-setup.exe"><code>VoxSpica-0.1.8-ru-setup.exe</code></a> — Русский, 129.5 MB
+- <img src="https://flagcdn.com/16x12/de.png" width="16" alt="DE"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.8-de-setup.exe"><code>VoxSpica-0.1.8-de-setup.exe</code></a> — Deutsch, 129.5 MB
+- <img src="https://flagcdn.com/16x12/fr.png" width="16" alt="FR"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.8-fr-setup.exe"><code>VoxSpica-0.1.8-fr-setup.exe</code></a> — Français, 125.8 MB
+- <img src="https://flagcdn.com/16x12/es.png" width="16" alt="ES"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.8-es-setup.exe"><code>VoxSpica-0.1.8-es-setup.exe</code></a> — Español, 123.1 MB
+- <img src="https://flagcdn.com/16x12/it.png" width="16" alt="IT"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.8-it-setup.exe"><code>VoxSpica-0.1.8-it-setup.exe</code></a> — Italiano, 132.9 MB
+- <img src="https://flagcdn.com/16x12/cn.png" width="16" alt="CN"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.8-zh-setup.exe"><code>VoxSpica-0.1.8-zh-setup.exe</code></a> — 简体中文, 127.3 MB
 
 Список называет одну версию и заменяется при выходе следующей. Портативный
 архив здесь намеренно отсутствует: он лежит в релизе, и он же подходит, если
@@ -158,14 +158,14 @@ scoop install voxspica
 ### Ubuntu / Debian
 
 Для **Ubuntu 22.04** и **24.04** (а также Debian 12 и новее) есть нативный
-пакет `voxspica_0.1.7_amd64.deb`. Он — ассет релиза, а не в списке выше.
+пакет `voxspica_0.1.8_amd64.deb`. Он — ассет релиза, а не в списке выше.
 Скачайте его, затем:
 
 ```bash
-sudo dpkg -i voxspica_0.1.7_amd64.deb
+sudo dpkg -i voxspica_0.1.8_amd64.deb
 ```
 
-или через менеджер пакетов: `sudo apt install ./voxspica_0.1.7_amd64.deb`.
+или через менеджер пакетов: `sudo apt install ./voxspica_0.1.8_amd64.deb`.
 Модель распознавания в `.deb` не включена; при первом запуске выберите язык и
 скачайте модель — как в Windows.
 
