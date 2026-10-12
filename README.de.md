@@ -131,7 +131,7 @@ Manifest liest die Prüfsumme aus der `SHA256SUMS.txt` des Releases, damit
 
 ### Die sieben Installateure
 
-Basisadresse: <https://voxspica.com/downloads>
+Basisadresse: <https://voxspica.com/#download>
 
 - <img src="https://flagcdn.com/16x12/gb.png" width="16" alt="GB"> <a href="https://voxspica.com/downloads/VoxSpica-0.1.9-en-setup.exe"><code>VoxSpica-0.1.9-en-setup.exe</code></a> — English, 87.7 MB
 - <img src="https://flagcdn.com/16x12/ru.png" width="16" alt="RU"> <a href="https://voxspica.com/downloads/VoxSpica-0.1.9-ru-setup.exe"><code>VoxSpica-0.1.9-ru-setup.exe</code></a> — Русский, 92.7 MB

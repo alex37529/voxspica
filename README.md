@@ -129,7 +129,7 @@ manifest reads the checksum from the release's own `SHA256SUMS.txt`, so
 
 ### The seven installers
 
-Base URL: <https://voxspica.com/downloads>
+Base URL: <https://voxspica.com/#download>
 
 - <img src="https://flagcdn.com/16x12/gb.png" width="16" alt="GB"> <a href="https://voxspica.com/downloads/VoxSpica-0.1.9-en-setup.exe"><code>VoxSpica-0.1.9-en-setup.exe</code></a> — English, 87.7 MB
 - <img src="https://flagcdn.com/16x12/ru.png" width="16" alt="RU"> <a href="https://voxspica.com/downloads/VoxSpica-0.1.9-ru-setup.exe"><code>VoxSpica-0.1.9-ru-setup.exe</code></a> — Russian, 92.7 MB
