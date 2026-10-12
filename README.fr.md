@@ -1,4 +1,4 @@
-<p align="center">
+﻿<p align="center">
   <img alt="VoxSpica" src="images/voxspica_en.png" width="620">
 </p>
 
@@ -12,7 +12,7 @@
 <p align="center">
   <a href="https://github.com/alex37529/voxspica/releases"><img alt="Télécharger" src="https://img.shields.io/badge/télécharger-releases-2C7BE0?style=for-the-badge"></a>
   <a href="docs/USER-GUIDE.md"><img alt="Guide" src="https://img.shields.io/badge/guide-0B1620?style=for-the-badge"></a>
-  <a href="https://voxspica.4crytobot.xyz"><img alt="Site web" src="https://img.shields.io/badge/site-voxspica.4crytobot.xyz-0B1620?style=for-the-badge"></a>
+  <a href="https://voxspica.com"><img alt="Site web" src="https://img.shields.io/badge/site-voxspica.com-0B1620?style=for-the-badge"></a>
 </p>
 
 <p align="center">
@@ -132,15 +132,15 @@ lit la somme de contrôle dans le `SHA256SUMS.txt` de la version, si bien que
 
 ### Les sept installateurs
 
-Adresse de base : <https://voxspica.4crytobot.xyz/downloads>
+Adresse de base : <https://voxspica.com/downloads>
 
-- <img src="https://flagcdn.com/16x12/gb.png" width="16" alt="GB"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.9-en-setup.exe"><code>VoxSpica-0.1.9-en-setup.exe</code></a> — English, 87.7 MB
-- <img src="https://flagcdn.com/16x12/ru.png" width="16" alt="RU"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.9-ru-setup.exe"><code>VoxSpica-0.1.9-ru-setup.exe</code></a> — Русский, 92.7 MB
-- <img src="https://flagcdn.com/16x12/de.png" width="16" alt="DE"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.9-de-setup.exe"><code>VoxSpica-0.1.9-de-setup.exe</code></a> — Deutsch, 92.7 MB
-- <img src="https://flagcdn.com/16x12/fr.png" width="16" alt="FR"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.9-fr-setup.exe"><code>VoxSpica-0.1.9-fr-setup.exe</code></a> — Français, 89.0 MB
-- <img src="https://flagcdn.com/16x12/es.png" width="16" alt="ES"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.9-es-setup.exe"><code>VoxSpica-0.1.9-es-setup.exe</code></a> — Español, 86.2 MB
-- <img src="https://flagcdn.com/16x12/it.png" width="16" alt="IT"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.9-it-setup.exe"><code>VoxSpica-0.1.9-it-setup.exe</code></a> — Italiano, 96.1 MB
-- <img src="https://flagcdn.com/16x12/cn.png" width="16" alt="CN"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.9-zh-setup.exe"><code>VoxSpica-0.1.9-zh-setup.exe</code></a> — 简体中文, 90.4 MB
+- <img src="https://flagcdn.com/16x12/gb.png" width="16" alt="GB"> <a href="https://voxspica.com/downloads/VoxSpica-0.1.9-en-setup.exe"><code>VoxSpica-0.1.9-en-setup.exe</code></a> — English, 87.7 MB
+- <img src="https://flagcdn.com/16x12/ru.png" width="16" alt="RU"> <a href="https://voxspica.com/downloads/VoxSpica-0.1.9-ru-setup.exe"><code>VoxSpica-0.1.9-ru-setup.exe</code></a> — Русский, 92.7 MB
+- <img src="https://flagcdn.com/16x12/de.png" width="16" alt="DE"> <a href="https://voxspica.com/downloads/VoxSpica-0.1.9-de-setup.exe"><code>VoxSpica-0.1.9-de-setup.exe</code></a> — Deutsch, 92.7 MB
+- <img src="https://flagcdn.com/16x12/fr.png" width="16" alt="FR"> <a href="https://voxspica.com/downloads/VoxSpica-0.1.9-fr-setup.exe"><code>VoxSpica-0.1.9-fr-setup.exe</code></a> — Français, 89.0 MB
+- <img src="https://flagcdn.com/16x12/es.png" width="16" alt="ES"> <a href="https://voxspica.com/downloads/VoxSpica-0.1.9-es-setup.exe"><code>VoxSpica-0.1.9-es-setup.exe</code></a> — Español, 86.2 MB
+- <img src="https://flagcdn.com/16x12/it.png" width="16" alt="IT"> <a href="https://voxspica.com/downloads/VoxSpica-0.1.9-it-setup.exe"><code>VoxSpica-0.1.9-it-setup.exe</code></a> — Italiano, 96.1 MB
+- <img src="https://flagcdn.com/16x12/cn.png" width="16" alt="CN"> <a href="https://voxspica.com/downloads/VoxSpica-0.1.9-zh-setup.exe"><code>VoxSpica-0.1.9-zh-setup.exe</code></a> — 简体中文, 90.4 MB
 
 La liste nomme une version et est remplacée à chaque nouvelle publication.
 L'archive portable n'y figure pas volontairement : elle est dans la release, et
@@ -234,7 +234,7 @@ n'est pas mis en miroir ici : ce dépôt n'en contient pas la moindre trace. Les
 fichier, pas sur le code de l'application. Les fichiers joints à chaque version
 sont des binaires compilés.
 
-Site web : <https://voxspica.4crytobot.xyz>
+Site web : <https://voxspica.com>
 
 ## Licence
 

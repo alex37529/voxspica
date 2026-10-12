@@ -1,4 +1,4 @@
-# Guide d'utilisation
+﻿# Guide d'utilisation
 
 <p align="center">
   <sub>[English](USER-GUIDE.md) · [Deutsch](USER-GUIDE.de.md) · [Español](USER-GUIDE.es.md) · [Italiano](USER-GUIDE.it.md) · [Русский](USER-GUIDE.ru.md)</sub>
@@ -247,4 +247,4 @@ Retéléchargez-le ; si cela recommence, le réseau coupe le transfert.
 
 - [LANGUAGES.md](LANGUAGES.md) — les 33 langues de reconnaissance et leurs modèles
 - [Guide en allemand](USER-GUIDE.de.md) · [Русский README](../README.ru.md) · [English](../README.md)
-- <https://voxspica.4crytobot.xyz> — le site
+- <https://voxspica.com> — le site

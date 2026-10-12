@@ -1,4 +1,4 @@
-<p align="center">
+﻿<p align="center">
   <img alt="VoxSpica" src="images/voxspica_en.png" width="620">
 </p>
 
@@ -12,7 +12,7 @@
 <p align="center">
   <a href="https://github.com/alex37529/voxspica/releases"><img alt="Скачать" src="https://img.shields.io/badge/скачать-releases-2C7BE0?style=for-the-badge"></a>
   <a href="docs/USER-GUIDE.ru.md"><img alt="Руководство" src="https://img.shields.io/badge/руководство-0B1620?style=for-the-badge"></a>
-  <a href="https://voxspica.4crytobot.xyz"><img alt="Сайт" src="https://img.shields.io/badge/сайт-voxspica.4crytobot.xyz-0B1620?style=for-the-badge"></a>
+  <a href="https://voxspica.com"><img alt="Сайт" src="https://img.shields.io/badge/сайт-voxspica.com-0B1620?style=for-the-badge"></a>
 </p>
 
 <p align="center">
@@ -132,15 +132,15 @@ scoop install voxspica
 
 ### Семь установщиков
 
-Базовый адрес: <https://voxspica.4crytobot.xyz/downloads>
+Базовый адрес: <https://voxspica.com/downloads>
 
-- <img src="https://flagcdn.com/16x12/gb.png" width="16" alt="GB"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.9-en-setup.exe"><code>VoxSpica-0.1.9-en-setup.exe</code></a> — English, 87.7 MB
-- <img src="https://flagcdn.com/16x12/ru.png" width="16" alt="RU"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.9-ru-setup.exe"><code>VoxSpica-0.1.9-ru-setup.exe</code></a> — Русский, 92.7 MB
-- <img src="https://flagcdn.com/16x12/de.png" width="16" alt="DE"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.9-de-setup.exe"><code>VoxSpica-0.1.9-de-setup.exe</code></a> — Deutsch, 92.7 MB
-- <img src="https://flagcdn.com/16x12/fr.png" width="16" alt="FR"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.9-fr-setup.exe"><code>VoxSpica-0.1.9-fr-setup.exe</code></a> — Français, 89.0 MB
-- <img src="https://flagcdn.com/16x12/es.png" width="16" alt="ES"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.9-es-setup.exe"><code>VoxSpica-0.1.9-es-setup.exe</code></a> — Español, 86.2 MB
-- <img src="https://flagcdn.com/16x12/it.png" width="16" alt="IT"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.9-it-setup.exe"><code>VoxSpica-0.1.9-it-setup.exe</code></a> — Italiano, 96.1 MB
-- <img src="https://flagcdn.com/16x12/cn.png" width="16" alt="CN"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.9-zh-setup.exe"><code>VoxSpica-0.1.9-zh-setup.exe</code></a> — 简体中文, 90.4 MB
+- <img src="https://flagcdn.com/16x12/gb.png" width="16" alt="GB"> <a href="https://voxspica.com/downloads/VoxSpica-0.1.9-en-setup.exe"><code>VoxSpica-0.1.9-en-setup.exe</code></a> — English, 87.7 MB
+- <img src="https://flagcdn.com/16x12/ru.png" width="16" alt="RU"> <a href="https://voxspica.com/downloads/VoxSpica-0.1.9-ru-setup.exe"><code>VoxSpica-0.1.9-ru-setup.exe</code></a> — Русский, 92.7 MB
+- <img src="https://flagcdn.com/16x12/de.png" width="16" alt="DE"> <a href="https://voxspica.com/downloads/VoxSpica-0.1.9-de-setup.exe"><code>VoxSpica-0.1.9-de-setup.exe</code></a> — Deutsch, 92.7 MB
+- <img src="https://flagcdn.com/16x12/fr.png" width="16" alt="FR"> <a href="https://voxspica.com/downloads/VoxSpica-0.1.9-fr-setup.exe"><code>VoxSpica-0.1.9-fr-setup.exe</code></a> — Français, 89.0 MB
+- <img src="https://flagcdn.com/16x12/es.png" width="16" alt="ES"> <a href="https://voxspica.com/downloads/VoxSpica-0.1.9-es-setup.exe"><code>VoxSpica-0.1.9-es-setup.exe</code></a> — Español, 86.2 MB
+- <img src="https://flagcdn.com/16x12/it.png" width="16" alt="IT"> <a href="https://voxspica.com/downloads/VoxSpica-0.1.9-it-setup.exe"><code>VoxSpica-0.1.9-it-setup.exe</code></a> — Italiano, 96.1 MB
+- <img src="https://flagcdn.com/16x12/cn.png" width="16" alt="CN"> <a href="https://voxspica.com/downloads/VoxSpica-0.1.9-zh-setup.exe"><code>VoxSpica-0.1.9-zh-setup.exe</code></a> — 简体中文, 90.4 MB
 
 Список называет одну версию и заменяется при выходе следующей. Портативный
 архив здесь намеренно отсутствует: он лежит в релизе, и он же подходит, если
@@ -227,7 +227,7 @@ VoxSpica.exe history --search "meeting"     # что распознавалос�
 публичный коммит, который добавляет этот файл, а не на код приложения. Файлы
 прикреплённые к релизам — собранные бинарники.
 
-Сайт: <https://voxspica.4crytobot.xyz>
+Сайт: <https://voxspica.com>
 
 ## Лицензия
 

@@ -1,4 +1,4 @@
-# Guía de usuario
+﻿# Guía de usuario
 
 <p align="center">
   <sub>[English](USER-GUIDE.md) · [Deutsch](USER-GUIDE.de.md) · [Français](USER-GUIDE.fr.md) · [Italiano](USER-GUIDE.it.md) · [Русский](USER-GUIDE.ru.md)</sub>
@@ -243,4 +243,4 @@ repite, la red está cortando la transferencia.
 
 - [LANGUAGES.md](LANGUAGES.md) — los 33 idiomas de reconocimiento y sus modelos
 - [Guía en francés](USER-GUIDE.fr.md) · [Русский README](../README.ru.md) · [English](../README.md)
-- <https://voxspica.4crytobot.xyz> — el sitio web
+- <https://voxspica.com> — el sitio web

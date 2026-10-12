@@ -1,4 +1,4 @@
-# Руководство пользователя
+﻿# Руководство пользователя
 
 <p align="center">
   <sub>[English](USER-GUIDE.md) · [Deutsch](USER-GUIDE.de.md) · [Español](USER-GUIDE.es.md) · [Français](USER-GUIDE.fr.md) · [Italiano](USER-GUIDE.it.md)</sub>
@@ -237,4 +237,4 @@ VoxSpica.exe config lang=de size=large        # запомнить выбор
 
 - [LANGUAGES.md](LANGUAGES.md) — все 33 языка распознавания и их модели
 - [Русский README](../README.ru.md) · [中文 README](../README.zh.md) · [English](../README.md)
-- <https://voxspica.4crytobot.xyz> — сайт
+- <https://voxspica.com> — сайт

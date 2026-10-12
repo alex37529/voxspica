@@ -1,4 +1,4 @@
-# Anleitung
+﻿# Anleitung
 
 <p align="center">
   <sub>[English](USER-GUIDE.md) · [Español](USER-GUIDE.es.md) · [Français](USER-GUIDE.fr.md) · [Italiano](USER-GUIDE.it.md) · [Русский](USER-GUIDE.ru.md)</sub>
@@ -245,4 +245,4 @@ zurückzulassen. Laden Sie es erneut; wiederholt es sich, bricht das Netz die
 
 - [LANGUAGES.md](LANGUAGES.md) — alle 33 Erkennungssprachen und ihre Modelle
 - [Anleitung auf Russisch](USER-GUIDE.ru.md) · [中文 README](../README.zh.md) · [English](../README.md)
-- <https://voxspica.4crytobot.xyz> — die Website
+- <https://voxspica.com> — die Website
