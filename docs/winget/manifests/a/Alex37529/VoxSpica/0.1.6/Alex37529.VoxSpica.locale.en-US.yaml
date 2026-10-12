@@ -1,4 +1,4 @@
-# Created using wingetcreate 1.12.13.0
+﻿# Created using wingetcreate 1.12.13.0
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
 #
 # VoxSpica — offline speech-to-text for Windows.
@@ -10,7 +10,7 @@ PublisherUrl: https://github.com/alex37529
 PublisherSupportUrl: https://github.com/alex37529/voxspica/issues
 Author: Alexandr Makeenak
 PackageName: VoxSpica
-PackageUrl: https://voxspica.4crytobot.xyz/
+PackageUrl: https://voxspica.com/
 Moniker: voxspica
 License: Freeware
 LicenseUrl: https://github.com/alex37529/voxspica/blob/main/LICENSE

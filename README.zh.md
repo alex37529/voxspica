@@ -1,4 +1,4 @@
-<p align="center">
+﻿<p align="center">
   <img alt="VoxSpica" src="images/voxspica_en.png" width="620">
 </p>
 
@@ -12,7 +12,7 @@
 <p align="center">
   <a href="https://github.com/alex37529/voxspica/releases"><img alt="下载" src="https://img.shields.io/badge/下载-releases-2C7BE0?style=for-the-badge"></a>
   <a href="docs/USER-GUIDE.md"><img alt="使用指南" src="https://img.shields.io/badge/使用指南-0B1620?style=for-the-badge"></a>
-  <a href="https://voxspica.4crytobot.xyz"><img alt="网站" src="https://img.shields.io/badge/网站-voxspica.4crytobot.xyz-0B1620?style=for-the-badge"></a>
+  <a href="https://voxspica.com"><img alt="网站" src="https://img.shields.io/badge/网站-voxspica.com-0B1620?style=for-the-badge"></a>
 </p>
 
 <p align="center">
@@ -124,15 +124,15 @@ release 自带的 `SHA256SUMS.txt`，所以 `scoop update` 会自己拿到新版
 
 ### 七个安装包
 
-基础地址：<https://voxspica.4crytobot.xyz/downloads>
+基础地址：<https://voxspica.com/downloads>
 
-- <img src="https://flagcdn.com/16x12/gb.png" width="16" alt="GB"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.9-en-setup.exe"><code>VoxSpica-0.1.9-en-setup.exe</code></a> — English, 87.7 MB
-- <img src="https://flagcdn.com/16x12/ru.png" width="16" alt="RU"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.9-ru-setup.exe"><code>VoxSpica-0.1.9-ru-setup.exe</code></a> — Русский, 92.7 MB
-- <img src="https://flagcdn.com/16x12/de.png" width="16" alt="DE"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.9-de-setup.exe"><code>VoxSpica-0.1.9-de-setup.exe</code></a> — Deutsch, 92.7 MB
-- <img src="https://flagcdn.com/16x12/fr.png" width="16" alt="FR"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.9-fr-setup.exe"><code>VoxSpica-0.1.9-fr-setup.exe</code></a> — Français, 89.0 MB
-- <img src="https://flagcdn.com/16x12/es.png" width="16" alt="ES"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.9-es-setup.exe"><code>VoxSpica-0.1.9-es-setup.exe</code></a> — Español, 86.2 MB
-- <img src="https://flagcdn.com/16x12/it.png" width="16" alt="IT"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.9-it-setup.exe"><code>VoxSpica-0.1.9-it-setup.exe</code></a> — Italiano, 96.1 MB
-- <img src="https://flagcdn.com/16x12/cn.png" width="16" alt="CN"> <a href="https://voxspica.4crytobot.xyz/downloads/VoxSpica-0.1.9-zh-setup.exe"><code>VoxSpica-0.1.9-zh-setup.exe</code></a> — 简体中文, 90.4 MB
+- <img src="https://flagcdn.com/16x12/gb.png" width="16" alt="GB"> <a href="https://voxspica.com/downloads/VoxSpica-0.1.9-en-setup.exe"><code>VoxSpica-0.1.9-en-setup.exe</code></a> — English, 87.7 MB
+- <img src="https://flagcdn.com/16x12/ru.png" width="16" alt="RU"> <a href="https://voxspica.com/downloads/VoxSpica-0.1.9-ru-setup.exe"><code>VoxSpica-0.1.9-ru-setup.exe</code></a> — Русский, 92.7 MB
+- <img src="https://flagcdn.com/16x12/de.png" width="16" alt="DE"> <a href="https://voxspica.com/downloads/VoxSpica-0.1.9-de-setup.exe"><code>VoxSpica-0.1.9-de-setup.exe</code></a> — Deutsch, 92.7 MB
+- <img src="https://flagcdn.com/16x12/fr.png" width="16" alt="FR"> <a href="https://voxspica.com/downloads/VoxSpica-0.1.9-fr-setup.exe"><code>VoxSpica-0.1.9-fr-setup.exe</code></a> — Français, 89.0 MB
+- <img src="https://flagcdn.com/16x12/es.png" width="16" alt="ES"> <a href="https://voxspica.com/downloads/VoxSpica-0.1.9-es-setup.exe"><code>VoxSpica-0.1.9-es-setup.exe</code></a> — Español, 86.2 MB
+- <img src="https://flagcdn.com/16x12/it.png" width="16" alt="IT"> <a href="https://voxspica.com/downloads/VoxSpica-0.1.9-it-setup.exe"><code>VoxSpica-0.1.9-it-setup.exe</code></a> — Italiano, 96.1 MB
+- <img src="https://flagcdn.com/16x12/cn.png" width="16" alt="CN"> <a href="https://voxspica.com/downloads/VoxSpica-0.1.9-zh-setup.exe"><code>VoxSpica-0.1.9-zh-setup.exe</code></a> — 简体中文, 90.4 MB
 
 这份列表写的是某一个版本，出了新版本就会替换。便携版压缩包故意不放进来：它在
 Releases 里，而且当你要的界面语言不在上面这份列表里时，它才是对的选择。旗帜
@@ -209,7 +209,7 @@ VoxSpica.exe history --search "meeting"      # 之前识别过什么
 源代码。`vX.Y.Z` 标签指向的是引入这个文件的那个很小的公开提交，不是应用
 代码。每个 release 附带的文件是编译好的二进制。
 
-网站：<https://voxspica.4crytobot.xyz>
+网站：<https://voxspica.com>
 
 ## 许可证
 

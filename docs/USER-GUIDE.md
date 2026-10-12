@@ -1,4 +1,4 @@
-# User guide
+﻿# User guide
 
 <p align="center">
   <sub>[Deutsch](USER-GUIDE.de.md) · [Español](USER-GUIDE.es.md) · [Français](USER-GUIDE.fr.md) · [Italiano](USER-GUIDE.it.md) · [Русский](USER-GUIDE.ru.md)</sub>
@@ -240,4 +240,4 @@ it repeats, the network is cutting the transfer.
 - [LANGUAGES.md](LANGUAGES.md) — all 33 recognition languages and their models
 - [Русский](USER-GUIDE.ru.md) · [中文 README](../README.zh.md) · [Русский README](../README.ru.md)
 - [README](../README.md) — what it is, and what it does not do
-- <https://voxspica.4crytobot.xyz> — the website
+- <https://voxspica.com> — the website
