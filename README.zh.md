@@ -126,13 +126,13 @@ release 自带的 `SHA256SUMS.txt`，所以 `scoop update` 会自己拿到新版
 
 基础地址：<https://voxspica.com/#download>
 
-- <img src="https://flagcdn.com/16x12/gb.png" width="16" alt="GB"> <a href="https://voxspica.com/downloads/VoxSpica-0.1.9-en-setup.exe"><code>VoxSpica-0.1.9-en-setup.exe</code></a> — English, 87.7 MB
-- <img src="https://flagcdn.com/16x12/ru.png" width="16" alt="RU"> <a href="https://voxspica.com/downloads/VoxSpica-0.1.9-ru-setup.exe"><code>VoxSpica-0.1.9-ru-setup.exe</code></a> — Русский, 92.7 MB
-- <img src="https://flagcdn.com/16x12/de.png" width="16" alt="DE"> <a href="https://voxspica.com/downloads/VoxSpica-0.1.9-de-setup.exe"><code>VoxSpica-0.1.9-de-setup.exe</code></a> — Deutsch, 92.7 MB
-- <img src="https://flagcdn.com/16x12/fr.png" width="16" alt="FR"> <a href="https://voxspica.com/downloads/VoxSpica-0.1.9-fr-setup.exe"><code>VoxSpica-0.1.9-fr-setup.exe</code></a> — Français, 89.0 MB
-- <img src="https://flagcdn.com/16x12/es.png" width="16" alt="ES"> <a href="https://voxspica.com/downloads/VoxSpica-0.1.9-es-setup.exe"><code>VoxSpica-0.1.9-es-setup.exe</code></a> — Español, 86.2 MB
-- <img src="https://flagcdn.com/16x12/it.png" width="16" alt="IT"> <a href="https://voxspica.com/downloads/VoxSpica-0.1.9-it-setup.exe"><code>VoxSpica-0.1.9-it-setup.exe</code></a> — Italiano, 96.1 MB
-- <img src="https://flagcdn.com/16x12/cn.png" width="16" alt="CN"> <a href="https://voxspica.com/downloads/VoxSpica-0.1.9-zh-setup.exe"><code>VoxSpica-0.1.9-zh-setup.exe</code></a> — 简体中文, 90.4 MB
+- <img src="https://flagcdn.com/16x12/gb.png" width="16" alt="GB"> <a href="https://voxspica.com/downloads/VoxSpica-0.2.0-en-setup.exe"><code>VoxSpica-0.2.0-en-setup.exe</code></a> — English, 87.7 MB
+- <img src="https://flagcdn.com/16x12/ru.png" width="16" alt="RU"> <a href="https://voxspica.com/downloads/VoxSpica-0.2.0-ru-setup.exe"><code>VoxSpica-0.2.0-ru-setup.exe</code></a> — Русский, 92.7 MB
+- <img src="https://flagcdn.com/16x12/de.png" width="16" alt="DE"> <a href="https://voxspica.com/downloads/VoxSpica-0.2.0-de-setup.exe"><code>VoxSpica-0.2.0-de-setup.exe</code></a> — Deutsch, 92.7 MB
+- <img src="https://flagcdn.com/16x12/fr.png" width="16" alt="FR"> <a href="https://voxspica.com/downloads/VoxSpica-0.2.0-fr-setup.exe"><code>VoxSpica-0.2.0-fr-setup.exe</code></a> — Français, 89.0 MB
+- <img src="https://flagcdn.com/16x12/es.png" width="16" alt="ES"> <a href="https://voxspica.com/downloads/VoxSpica-0.2.0-es-setup.exe"><code>VoxSpica-0.2.0-es-setup.exe</code></a> — Español, 86.2 MB
+- <img src="https://flagcdn.com/16x12/it.png" width="16" alt="IT"> <a href="https://voxspica.com/downloads/VoxSpica-0.2.0-it-setup.exe"><code>VoxSpica-0.2.0-it-setup.exe</code></a> — Italiano, 96.1 MB
+- <img src="https://flagcdn.com/16x12/cn.png" width="16" alt="CN"> <a href="https://voxspica.com/downloads/VoxSpica-0.2.0-zh-setup.exe"><code>VoxSpica-0.2.0-zh-setup.exe</code></a> — 简体中文, 90.4 MB
 
 这份列表写的是某一个版本，出了新版本就会替换。便携版压缩包故意不放进来：它在
 Releases 里，而且当你要的界面语言不在上面这份列表里时，它才是对的选择。旗帜
@@ -147,13 +147,13 @@ Releases 里，而且当你要的界面语言不在上面这份列表里时，�
 ### Ubuntu / Debian
 
 **Ubuntu 22.04** 和 **24.04**（以及 Debian 12 及更新版本）有原生安装包
-`voxspica_0.1.9_amd64.deb`。它是 release 里的资产，不在上面的列表里。下载后：
+`voxspica_0.2.0_amd64.deb`。它是 release 里的资产，不在上面的列表里。下载后：
 
 ```bash
-sudo dpkg -i voxspica_0.1.9_amd64.deb
+sudo dpkg -i voxspica_0.2.0_amd64.deb
 ```
 
-或包管理器：`sudo apt install ./voxspica_0.1.9_amd64.deb`。识别模型不在
+或包管理器：`sudo apt install ./voxspica_0.2.0_amd64.deb`。识别模型不在
 `.deb` 里；首次启动时选择语言并下载模型，与 Windows 相同。
 
 ## 第一次运行
