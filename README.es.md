@@ -1,5 +1,5 @@
 ﻿<p align="center">
-  <img alt="VoxSpica" src="images/voxspica_en.png" width="620">
+  <img alt="VoxSpica — reconocimiento de voz gratuito y transcripción de archivos de audio" src="images/voxspica_banner.webp" width="1200">
 </p>
 
 <h1 align="center">VoxSpica</h1>
