@@ -134,13 +134,13 @@ lit la somme de contrôle dans le `SHA256SUMS.txt` de la version, si bien que
 
 Adresse de base : <https://voxspica.com/#download>
 
-- <img src="https://flagcdn.com/16x12/gb.png" width="16" alt="GB"> <a href="https://voxspica.com/downloads/VoxSpica-0.2.0-en-setup.exe"><code>VoxSpica-0.2.0-en-setup.exe</code></a> — English, 87.7 MB
-- <img src="https://flagcdn.com/16x12/ru.png" width="16" alt="RU"> <a href="https://voxspica.com/downloads/VoxSpica-0.2.0-ru-setup.exe"><code>VoxSpica-0.2.0-ru-setup.exe</code></a> — Русский, 92.7 MB
-- <img src="https://flagcdn.com/16x12/de.png" width="16" alt="DE"> <a href="https://voxspica.com/downloads/VoxSpica-0.2.0-de-setup.exe"><code>VoxSpica-0.2.0-de-setup.exe</code></a> — Deutsch, 92.7 MB
-- <img src="https://flagcdn.com/16x12/fr.png" width="16" alt="FR"> <a href="https://voxspica.com/downloads/VoxSpica-0.2.0-fr-setup.exe"><code>VoxSpica-0.2.0-fr-setup.exe</code></a> — Français, 89.0 MB
-- <img src="https://flagcdn.com/16x12/es.png" width="16" alt="ES"> <a href="https://voxspica.com/downloads/VoxSpica-0.2.0-es-setup.exe"><code>VoxSpica-0.2.0-es-setup.exe</code></a> — Español, 86.2 MB
-- <img src="https://flagcdn.com/16x12/it.png" width="16" alt="IT"> <a href="https://voxspica.com/downloads/VoxSpica-0.2.0-it-setup.exe"><code>VoxSpica-0.2.0-it-setup.exe</code></a> — Italiano, 96.1 MB
-- <img src="https://flagcdn.com/16x12/cn.png" width="16" alt="CN"> <a href="https://voxspica.com/downloads/VoxSpica-0.2.0-zh-setup.exe"><code>VoxSpica-0.2.0-zh-setup.exe</code></a> — 简体中文, 90.4 MB
+- <img src="https://flagcdn.com/16x12/gb.png" width="16" alt="GB"> <a href="https://voxspica.com/downloads/VoxSpica-0.2.1-en-setup.exe"><code>VoxSpica-0.2.1-en-setup.exe</code></a> — English, 86.6 MB
+- <img src="https://flagcdn.com/16x12/ru.png" width="16" alt="RU"> <a href="https://voxspica.com/downloads/VoxSpica-0.2.1-ru-setup.exe"><code>VoxSpica-0.2.1-ru-setup.exe</code></a> — Русский, 91.3 MB
+- <img src="https://flagcdn.com/16x12/de.png" width="16" alt="DE"> <a href="https://voxspica.com/downloads/VoxSpica-0.2.1-de-setup.exe"><code>VoxSpica-0.2.1-de-setup.exe</code></a> — Deutsch, 91.5 MB
+- <img src="https://flagcdn.com/16x12/fr.png" width="16" alt="FR"> <a href="https://voxspica.com/downloads/VoxSpica-0.2.1-fr-setup.exe"><code>VoxSpica-0.2.1-fr-setup.exe</code></a> — Français, 87.8 MB
+- <img src="https://flagcdn.com/16x12/es.png" width="16" alt="ES"> <a href="https://voxspica.com/downloads/VoxSpica-0.2.1-es-setup.exe"><code>VoxSpica-0.2.1-es-setup.exe</code></a> — Español, 85.4 MB
+- <img src="https://flagcdn.com/16x12/it.png" width="16" alt="IT"> <a href="https://voxspica.com/downloads/VoxSpica-0.2.1-it-setup.exe"><code>VoxSpica-0.2.1-it-setup.exe</code></a> — Italiano, 94.8 MB
+- <img src="https://flagcdn.com/16x12/cn.png" width="16" alt="CN"> <a href="https://voxspica.com/downloads/VoxSpica-0.2.1-zh-setup.exe"><code>VoxSpica-0.2.1-zh-setup.exe</code></a> — 简体中文, 89.5 MB
 
 La liste nomme une version et est remplacée à chaque nouvelle publication.
 L'archive portable n'y figure pas volontairement : elle est dans la release, et
@@ -159,14 +159,14 @@ les images disparaissent.
 ### Ubuntu / Debian
 
 Pour **Ubuntu 22.04** et **24.04** (et Debian 12 et les versions suivantes),
-il y a un paquet natif `voxspica_0.2.0_amd64.deb`. C'est un actif de la release,
+il y a un paquet natif `voxspica_0.2.1_amd64.deb`. C'est un actif de la release,
 pas dans la liste ci-dessus. Téléchargez-le, puis :
 
 ```bash
-sudo dpkg -i voxspica_0.2.0_amd64.deb
+sudo dpkg -i voxspica_0.2.1_amd64.deb
 ```
 
-ou avec un gestionnaire de paquets : `sudo apt install ./voxspica_0.2.0_amd64.deb`.
+ou avec un gestionnaire de paquets : `sudo apt install ./voxspica_0.2.1_amd64.deb`.
 Le modèle de reconnaissance n'est pas dans le `.deb` ; au premier lancement,
 choisissez une langue et téléchargez un modèle, comme sous Windows.
 
